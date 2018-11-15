@@ -1,0 +1,6 @@
+framework module BillboardSwiftLibrary {
+  umbrella header "BillboardSwiftLibrary-umbrella.h"
+
+  export *
+  module * { export * }
+}
