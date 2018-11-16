@@ -71,6 +71,9 @@
 		842BB5C8219F6EFB008971D7 /* ChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842BB5C7219F6EFB008971D7 /* ChartData.swift */; };
 		842BB5CA219F6FF7008971D7 /* BillboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842BB5C9219F6FF7008971D7 /* BillboardManager.swift */; };
 		842BB5CC219F71CE008971D7 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842BB5CB219F71CE008971D7 /* Result.swift */; };
+		842BB5CE219F74E3008971D7 /* ChartRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842BB5CD219F74E3008971D7 /* ChartRequests.swift */; };
+		842BB5D2219F7552008971D7 /* ChartGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842BB5D1219F7552008971D7 /* ChartGateway.swift */; };
+		842BB5D4219F7581008971D7 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842BB5D3219F7581008971D7 /* JSON.swift */; };
 		855233AE33FB1BA266A9A4D90C9EE79C /* World.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8737F3E0C1FB1ABDDC8F61A081B1F76B /* World.swift */; };
 		8B55BD430033027AD5FF22D630DD9F62 /* DSL.m in Sources */ = {isa = PBXBuildFile; fileRef = 82267A98670DE3E96EAB2047A8872FE0 /* DSL.m */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		8EF41CF2BA45A57CFB51EF2011BF6816 /* QCKDSL.h in Headers */ = {isa = PBXBuildFile; fileRef = B9985CC02179403DC54B3460DCE486AC /* QCKDSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -250,6 +253,9 @@
 		842BB5C7219F6EFB008971D7 /* ChartData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChartData.swift; path = BillboardSwiftLibrary/Classes/ChartData.swift; sourceTree = "<group>"; };
 		842BB5C9219F6FF7008971D7 /* BillboardManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BillboardManager.swift; path = BillboardSwiftLibrary/Classes/BillboardManager.swift; sourceTree = "<group>"; };
 		842BB5CB219F71CE008971D7 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Result.swift; path = BillboardSwiftLibrary/Classes/Result.swift; sourceTree = "<group>"; };
+		842BB5CD219F74E3008971D7 /* ChartRequests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ChartRequests.swift; path = BillboardSwiftLibrary/Classes/ChartRequests.swift; sourceTree = "<group>"; };
+		842BB5D1219F7552008971D7 /* ChartGateway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ChartGateway.swift; path = BillboardSwiftLibrary/Classes/ChartGateway.swift; sourceTree = "<group>"; };
+		842BB5D3219F7581008971D7 /* JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = JSON.swift; path = BillboardSwiftLibrary/Classes/JSON.swift; sourceTree = "<group>"; };
 		8452C5F4B63A4A0178E56CDC9E95DFE8 /* ExampleMetadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExampleMetadata.swift; path = Sources/Quick/ExampleMetadata.swift; sourceTree = "<group>"; };
 		8737F3E0C1FB1ABDDC8F61A081B1F76B /* World.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = World.swift; path = Sources/Quick/World.swift; sourceTree = "<group>"; };
 		87CACAEFCE668D890A5350CD0A09455D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -556,9 +562,12 @@
 		83AB98671EB0A9B36692C5D0315C9B47 /* BillboardSwiftLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				842BB5D1219F7552008971D7 /* ChartGateway.swift */,
 				842BB5C9219F6FF7008971D7 /* BillboardManager.swift */,
 				D9E66E000B7D36A8C5F8E10A3482DBFE /* ChartEntry.swift */,
 				842BB5C7219F6EFB008971D7 /* ChartData.swift */,
+				842BB5CD219F74E3008971D7 /* ChartRequests.swift */,
+				842BB5D3219F7581008971D7 /* JSON.swift */,
 				842BB5CB219F71CE008971D7 /* Result.swift */,
 				08143BF16B7C2AC4F337C30197654CF3 /* Pod */,
 				E903616F6A174B83C09AC0B7685E8912 /* Support Files */,
@@ -938,8 +947,11 @@
 			files = (
 				DC9ABE1DEC5E207CCD7E21976A380F8D /* BillboardSwiftLibrary-dummy.m in Sources */,
 				842BB5CC219F71CE008971D7 /* Result.swift in Sources */,
+				842BB5CE219F74E3008971D7 /* ChartRequests.swift in Sources */,
+				842BB5D4219F7581008971D7 /* JSON.swift in Sources */,
 				842BB5C8219F6EFB008971D7 /* ChartData.swift in Sources */,
 				3566720A3EBE0E113AE7174A58A02D49 /* ChartEntry.swift in Sources */,
+				842BB5D2219F7552008971D7 /* ChartGateway.swift in Sources */,
 				842BB5CA219F6FF7008971D7 /* BillboardManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
