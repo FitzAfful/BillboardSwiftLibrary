@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'BillboardSwiftLibrary'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of BillboardSwiftLibrary.'
+  s.summary          = 'Swift API for downloading Billboard charts'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,18 +17,17 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'BillboardSwiftLibrary is a Swift API for accessing music charts from Billboard.com.'
 
   s.homepage         = 'https://github.com/Fitzafful/BillboardSwiftLibrary'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Fitzafful' => 'fitzafful@gmail.com' }
   s.source           = { :git => 'https://github.com/Fitzafful/BillboardSwiftLibrary.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.social_media_url = 'https://twitter.com/<Bra_Gerald>'
 
-  s.ios.deployment_target = '8.0'
+  s.swift_version = '4.0'
+  s.ios.deployment_target = '9.3'
 
   s.source_files = 'BillboardSwiftLibrary/Classes/**/*'
   
