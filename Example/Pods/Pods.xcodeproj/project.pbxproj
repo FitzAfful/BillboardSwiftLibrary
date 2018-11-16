@@ -562,8 +562,8 @@
 		83AB98671EB0A9B36692C5D0315C9B47 /* BillboardSwiftLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				842BB5D1219F7552008971D7 /* ChartGateway.swift */,
 				842BB5C9219F6FF7008971D7 /* BillboardManager.swift */,
+				842BB5D1219F7552008971D7 /* ChartGateway.swift */,
 				D9E66E000B7D36A8C5F8E10A3482DBFE /* ChartEntry.swift */,
 				842BB5C7219F6EFB008971D7 /* ChartData.swift */,
 				842BB5CD219F74E3008971D7 /* ChartRequests.swift */,

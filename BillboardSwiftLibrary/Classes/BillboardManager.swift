@@ -19,9 +19,20 @@ protocol BillboardManagerProtocol {
 	
 	//Date in String,
 	func getChart(chartType: ChartType, day: Int, month: Int, year: Int, completionHandler: @escaping GetChartCompletionHandler)
+	
+	//Check if Date is correct and chart can be found for that date.
+	func validateDate(year:Int, month:Int, day: Int)->Bool
 }
 
 class BillboardManager: BillboardManagerProtocol {
+	
+	private let apiClient: ApiClient
+	private let gateway: ChartGateway
+	
+	init() {
+		apiClient = ApiClientImplementation(urlSessionConfiguration: URLSessionConfiguration.default,completionHandlerQueue: OperationQueue.main)
+		gateway = ChartGateway(apiClient: apiClient)
+	}
 	
 	/** Get Artist Following
 	
@@ -36,7 +47,16 @@ class BillboardManager: BillboardManagerProtocol {
 	- Returns: If successful, returns Array of Audiomack Users who are followed by specified artist
 	*/
 	func getChart(chartType: ChartType, date: String, completionHandler: @escaping GetChartCompletionHandler) {
-		
+		let year = 0
+		let month = 0
+		let day = 0
+		let bool = validateDate(year: year, month: month, day: day)
+		if(!bool){
+			completionHandler(.failure(NSError.createDateError()))
+		}
+		gateway.getChart(parameter: ChartParameter(name: chartType.rawValue, date: "\(year)-\(month)-\(day)")) { (result) in
+			completionHandler(result)
+		}
 	}
 	
 	/** Get Artist Following
@@ -52,8 +72,17 @@ class BillboardManager: BillboardManagerProtocol {
 	- Returns: If successful, returns Array of Audiomack Users who are followed by specified artist
 	*/
 	func getChart(chartType: ChartType, day: Int, month: Int, year: Int, completionHandler: @escaping GetChartCompletionHandler) {
-		
+		let bool = validateDate(year: year, month: month, day: day)
+		if(!bool){
+			completionHandler(.failure(NSError.createDateError()))
+		}
+		gateway.getChart(parameter: ChartParameter(name: chartType.rawValue, date: "\(year)-\(month)-\(day)")) { (result) in
+			completionHandler(result)
+		}
 	}
 	
-	
+	internal func validateDate(year: Int, month: Int, day: Int) -> Bool {
+		//Let all validation go here
+		return false
+	}
 }

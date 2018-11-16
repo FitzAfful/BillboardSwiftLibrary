@@ -10,7 +10,7 @@ import Foundation
 
 
 
-class ApiArtistsGatewayImplementation {
+class ChartGateway {
 	func getChart(parameter: ChartParameter, completionHandler: @escaping GetChartCompletionHandler) {
 		let apiRequest = ChartRequest(parameter: parameter)
 		apiClient.execute(request: apiRequest) { (result: Result<String>) in
@@ -145,9 +145,15 @@ extension Array: InitializableWithData {
 
 extension NSError {
 	static func createParseError() -> NSError {
-		return NSError(domain: "com.fortech.library",
+		return NSError(domain: "BillboardSwiftLibrary",
 					   code: ApiParseError.code,
 					   userInfo: [NSLocalizedDescriptionKey: "A parsing error occured"])
+	}
+	
+	static func createDateError() -> NSError {
+		return NSError(domain: "BillboardSwiftLibrary",
+					   code: 001,
+					   userInfo: [NSLocalizedDescriptionKey: "Date entered is invalid. There is no chart for this date."])
 	}
 }
 

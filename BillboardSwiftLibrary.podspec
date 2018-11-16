@@ -20,14 +20,13 @@ Pod::Spec.new do |s|
   s.description      = 'BillboardSwiftLibrary is a Swift API for accessing music charts from Billboard.com.'
 
   s.homepage         = 'https://github.com/Fitzafful/BillboardSwiftLibrary'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Fitzafful' => 'fitzafful@gmail.com' }
   s.source           = { :git => 'https://github.com/Fitzafful/BillboardSwiftLibrary.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/<Bra_Gerald>'
 
   s.swift_version = '4.0'
-  s.ios.deployment_target = '9.3'
+  s.ios.deployment_target = '8.0'
 
   s.source_files = 'BillboardSwiftLibrary/Classes/**/*'
   
