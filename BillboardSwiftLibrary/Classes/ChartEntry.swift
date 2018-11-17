@@ -31,7 +31,7 @@ public struct ChartEntry {
 	///isNew: Whether the track is new to the chart, as a boolean.
 	public var isNew: Bool
 
-	init(title:String, artist: String, peakPos: Int?, lastPos: Int?, weeks: Int?, rank: Int, isNew: Bool) {
+	public init(title:String, artist: String, peakPos: Int?, lastPos: Int?, weeks: Int?, rank: Int, isNew: Bool) {
 		self.title = title
 		self.lastPos = lastPos
 		self.artist = artist

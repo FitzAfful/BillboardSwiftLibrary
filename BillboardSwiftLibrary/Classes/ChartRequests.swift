@@ -11,23 +11,23 @@ import Foundation
 let BASE_URL = "http://www.billboard.com/charts/"
 
 //css selector constants
-let _DATE_ELEMENT_SELECTOR = "button.chart-detail-header__date-selector-button"
-let _PREVIOUS_DATE_SELECTOR = "span.fa-chevron-left"
-let _NEXT_DATE_SELECTOR = "span.fa-chevron-right"
-let _TOP_TITLE_SELECTOR = "div.chart-number-one__title"
-let _TOP_ARTIST_SELECTOR = "div.chart-number-one__artist"
-let _TOP_LAST_POS_SELECTOR = "div.chart-number-one__last-week"
-let _TOP_WEEKS_SELECTOR = "div.chart-number-one__weeks-on-chart"
-let _ENTRY_LIST_SELECTOR = "div.chart-list-item"
-let _ENTRY_TITLE_ATTR = "data-title"
-let _ENTRY_ARTIST_ATTR = "data-artist"
-let _ENTRY_RANK_ATTR = "data-rank"
+public let _DATE_ELEMENT_SELECTOR = "button.chart-detail-header__date-selector-button"
+public let _PREVIOUS_DATE_SELECTOR = "span.fa-chevron-left"
+public let _NEXT_DATE_SELECTOR = "span.fa-chevron-right"
+public let _TOP_TITLE_SELECTOR = "div.chart-number-one__title"
+public let _TOP_ARTIST_SELECTOR = "div.chart-number-one__artist"
+public let _TOP_LAST_POS_SELECTOR = "div.chart-number-one__last-week"
+public let _TOP_WEEKS_SELECTOR = "div.chart-number-one__weeks-on-chart"
+public let _ENTRY_LIST_SELECTOR = "div.chart-list-item"
+public let _ENTRY_TITLE_ATTR = "data-title"
+public let _ENTRY_ARTIST_ATTR = "data-artist"
+public let _ENTRY_RANK_ATTR = "data-rank"
 
 //constants for the getPositionRowValue helper function
-let _ROW_SELECTOR_FORMAT = "div.chart-list-item__%s"
-let _PEAK_POS_FORMAT = "weeks-at-one"
-let _LAST_POS_FORMAT = "last-week"
-let _WEEKS_ON_CHART_FORMAT = "weeks-on-chart"
+public let _ROW_SELECTOR_FORMAT = "div.chart-list-item__%s"
+public let _PEAK_POS_FORMAT = "weeks-at-one"
+public let _LAST_POS_FORMAT = "last-week"
+public let _WEEKS_ON_CHART_FORMAT = "weeks-on-chart"
 
 struct ChartParameter {
 	var name: String

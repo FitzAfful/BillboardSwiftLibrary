@@ -19,10 +19,11 @@ class ViewController: UIViewController {
 		
 		do {
 			let html = try String.init(contentsOf: URL(string: "https://www.billboard.com/charts/hot-100/2011-01-01")!)
-			let string = try parser.parse(html, date: "2011-01-01")
+			let string = try parser.parse(html)
+			
 			print(string)
-		}catch{
-			print("Error")
+		}catch(let error){
+			print(error.localizedDescription)
 		}
 		
     }
