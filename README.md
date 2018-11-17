@@ -25,6 +25,8 @@ manager.getChart(chartType: ChartType.hot100) { (entries, error) in
 	print(entries!) //Array of ChartEntry
 }
 
+
+
 //FOR A PARTICULAR DATE (always remember date is in the form YYYY-MM-DD)
 manager.getChart(chartType: ChartType.hot100, date: "2018-11-18") { (entries, error) in
 	if error != nil{
@@ -34,6 +36,8 @@ manager.getChart(chartType: ChartType.hot100, date: "2018-11-18") { (entries, er
 
 	print(entries!) //Array of ChartEntry
 }
+
+
 
 //FOR A PARTICULAR DATE (with individual date components)
 manager.getChart(chartType: ChartType.hot100, day: 18, month: 11, year: 2018) { (entries, error) in

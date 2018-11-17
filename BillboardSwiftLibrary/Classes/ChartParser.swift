@@ -36,20 +36,24 @@ public class ChartParser {
 			let topTitle = try document.select(_TOP_TITLE_SELECTOR).text()
 			
 			var topIsNew = false
-			var topPeakPos: Int? = nil
-			var topLastPos: Int? = nil
-			var topWeeks: Int? = nil
+			var topPeakPos: Int = 0
+			var topLastPos: Int = 0
+			var topWeeks: Int = 0
 			
 			topPeakPos = 1
 				
 			//int(soup.select_one(_TOP_LAST_POS_SELECTOR).string.strip())
 			if let text = try? document.select(_TOP_LAST_POS_SELECTOR).text(){
-				topLastPos = Int(text)
+				if((text != "") && (text != "--")){
+					topLastPos = Int(text)!
+				}
 			}else{
 				topLastPos = 1
 			}
-			if let topWeeksElement = try? document.select(_TOP_WEEKS_SELECTOR) {
-				topWeeks = Int(try topWeeksElement.text())!
+			if let topWeeksElement = try? document.select(_TOP_WEEKS_SELECTOR).text() {
+				if((topWeeksElement != "") && (topWeeksElement != "--")){
+					topWeeks = Int(topWeeksElement)!
+				}
 			}else{
 				topWeeks = 0
 			}
@@ -77,9 +81,9 @@ public class ChartParser {
 				throw NSError.createError("Failed to parse Billboard Chart. Please try later")
 			}
 			var isNew = false
-			var peakPos: Int? = nil
-			var lastPos: Int? = nil
-			var weeks: Int? = nil
+			var peakPos: Int = 0
+			var lastPos: Int = 0
+			var weeks: Int = 0
 			
 			peakPos = try self.getPositionRowValue(rowName: _PEAK_POS_FORMAT, entrySoup: entrySoup)
 			if(peakPos == 0){
