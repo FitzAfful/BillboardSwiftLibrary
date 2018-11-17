@@ -53,7 +53,7 @@ struct NetworkRequestError: Error {
 	let error: Error?
 	
 	var localizedDescription: String {
-		return error?.localizedDescription ?? "Network request error - no other information"
+		return "Network request error. Please try again later"
 	}
 }
 
