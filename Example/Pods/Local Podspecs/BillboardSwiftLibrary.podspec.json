@@ -1,8 +1,8 @@
 {
   "name": "BillboardSwiftLibrary",
   "version": "0.1.0",
-  "summary": "A short description of BillboardSwiftLibrary.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "Swift API for downloading Billboard charts",
+  "description": "BillboardSwiftLibrary is a Swift API for accessing music charts from Billboard.com.",
   "homepage": "https://github.com/Fitzafful/BillboardSwiftLibrary",
   "license": {
     "type": "MIT",
@@ -15,8 +15,15 @@
     "git": "https://github.com/Fitzafful/BillboardSwiftLibrary.git",
     "tag": "0.1.0"
   },
+  "social_media_url": "https://twitter.com/@Bra_Gerald",
+  "swift_version": "4.0",
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "BillboardSwiftLibrary/Classes/**/*"
+  "source_files": "BillboardSwiftLibrary/Classes/**/*",
+  "dependencies": {
+    "SwiftSoup": [
+      "~> 1.7.4"
+    ]
+  }
 }

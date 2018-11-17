@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Fitzafful' => 'fitzafful@gmail.com' }
   s.source           = { :git => 'https://github.com/Fitzafful/BillboardSwiftLibrary.git', :tag => s.version.to_s }
-  s.social_media_url = 'https://twitter.com/<Bra_Gerald>'
+  s.social_media_url = 'https://twitter.com/@Bra_Gerald'
 
   s.swift_version = '4.0'
   s.ios.deployment_target = '8.0'
@@ -36,5 +36,5 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'SwiftSoup', '~> 1.7.4'
 end

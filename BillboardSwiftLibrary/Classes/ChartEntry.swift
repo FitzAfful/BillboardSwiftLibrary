@@ -23,7 +23,7 @@ public struct ChartEntry {
 	public var lastPos: Int?
 	
 	///weeks: The number of weeks the track has been or was on the chart, including future dates (up until the present time).
-	public var weeks: Int
+	public var weeks: Int?
 	
 	///rank: The track's position on the chart, as an int.
 	public var rank: Int
@@ -31,8 +31,9 @@ public struct ChartEntry {
 	///isNew: Whether the track is new to the chart, as a boolean.
 	public var isNew: Bool
 
-	init(title:String, artist: String, peakPos: Int?, weeks: Int, rank: Int, isNew: Bool) {
+	init(title:String, artist: String, peakPos: Int?, lastPos: Int?, weeks: Int?, rank: Int, isNew: Bool) {
 		self.title = title
+		self.lastPos = lastPos
 		self.artist = artist
 		self.peakPos = peakPos
 		self.weeks = weeks

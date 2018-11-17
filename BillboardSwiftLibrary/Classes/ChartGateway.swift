@@ -155,5 +155,11 @@ extension NSError {
 					   code: 001,
 					   userInfo: [NSLocalizedDescriptionKey: "Date entered is invalid. There is no chart for this date."])
 	}
+	
+	static func createError(_ message: String) -> NSError {
+		return NSError(domain: "BillboardSwiftLibrary",
+					   code: 001,
+					   userInfo: [NSLocalizedDescriptionKey: message])
+	}
 }
 

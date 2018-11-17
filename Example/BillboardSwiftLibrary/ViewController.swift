@@ -7,17 +7,24 @@
 //
 
 import UIKit
+import BillboardSwiftLibrary
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+		
+		
+		let parser = ChartParser()
+		
+		do {
+			let html = try String.init(contentsOf: URL(string: "https://www.billboard.com/charts/hot-100/2011-01-01")!)
+			let string = try parser.parse(html, date: "2011-01-01")
+			print(string)
+		}catch{
+			print("Error")
+		}
+		
     }
 
 }

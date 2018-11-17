@@ -189,7 +189,6 @@
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				B9BE6815800B5173622BDF9A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -272,34 +271,16 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-BillboardSwiftLibrary_Example/Pods-BillboardSwiftLibrary_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/BillboardSwiftLibrary/BillboardSwiftLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftSoup/SwiftSoup.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BillboardSwiftLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSoup.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BillboardSwiftLibrary_Example/Pods-BillboardSwiftLibrary_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B9BE6815800B5173622BDF9A /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-BillboardSwiftLibrary_Tests/Pods-BillboardSwiftLibrary_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
-				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BillboardSwiftLibrary_Tests/Pods-BillboardSwiftLibrary_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E6C3B8877C3375C770DC95AB /* [CP] Check Pods Manifest.lock */ = {

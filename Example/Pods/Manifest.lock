@@ -1,27 +1,23 @@
 PODS:
-  - BillboardSwiftLibrary (0.1.0)
-  - Nimble (7.0.3)
-  - Quick (1.2.0)
+  - BillboardSwiftLibrary (0.1.0):
+    - SwiftSoup (~> 1.7.4)
+  - SwiftSoup (1.7.4)
 
 DEPENDENCIES:
   - BillboardSwiftLibrary (from `../`)
-  - Nimble (~> 7.0.2)
-  - Quick (~> 1.2.0)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
-    - Nimble
-    - Quick
+    - SwiftSoup
 
 EXTERNAL SOURCES:
   BillboardSwiftLibrary:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BillboardSwiftLibrary: 60253a8283b6fc700054026b816893c67993c079
-  Nimble: 7f5a9c447a33002645a071bddafbfb24ea70e0ac
-  Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
+  BillboardSwiftLibrary: 7a3d43f067ea45422ed80f26cf0143644ead43fd
+  SwiftSoup: 92f5b348c131aed8af04f4326db1579ab19fa08c
 
-PODFILE CHECKSUM: a8a3562e4b71dd18790427d173e0c29986699e93
+PODFILE CHECKSUM: 3f2fa65b9444cb03bca92b6f70c7518255470125
 
 COCOAPODS: 1.5.3

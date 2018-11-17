@@ -20,7 +20,7 @@ public struct ChartData {
 	public var previousDate: String?
 	
 	///entries: A list of ChartEntry objects, ordered by position on the chart (highest first).
-	public var entries: [ChartEntry]
+	public var entries: [ChartEntry] = []
 	
 	init(name:String, date: String, previousDate: String?, entries: [ChartEntry]) {
 		self.name = name
