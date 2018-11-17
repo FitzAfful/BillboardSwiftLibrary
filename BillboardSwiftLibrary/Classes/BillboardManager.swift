@@ -7,7 +7,8 @@
 
 import Foundation
 
-public typealias GetChartCompletionHandler = (_ response: Result<ChartData>) -> Void
+public typealias GetChartCompletionHandler = (_ entries: [ChartEntry]?, _ error: Error?) -> Void
+public typealias GetChartResultCompletionHandler = (_ result: Result<[ChartEntry]>) -> Void
 
 enum ChartType: String {
 	case hot100 = "hot-100"
@@ -34,17 +35,18 @@ class BillboardManager: BillboardManagerProtocol {
 		gateway = ChartGateway(apiClient: apiClient)
 	}
 	
-	/** Get Artist Following
+	/** Get Chart
 	
-	For more info,  https://www.audiomack.com/data-api/docs#artist-following
+	Get Chart of particular type for a particular date
 	
 	- Parameters:
-	-  parameter: ArtistParameter (slug)
+	-  chartType: ChartType (eg ChartType.hot100)
+	-  date: In the format YYYY-MM-DD (eg 2018-11-15)
 	-  completionHandler: The completion handler to call when the load request is complete.
-	`response` - A response object, or `nil` if the request failed.
-	`error` - An error object that indicates why the request failed, or `nil` if the request was successful. On failed execution, `error` may contain an `AudiomackError` with `errorcode` and `message`
+	`entries` - A response object, or `nil` if the request failed.
+	`error` - An error object that indicates why the request failed, or `nil` if the request was successful. On failed execution, `error` contains localizedDescription with message
 	
-	- Returns: If successful, returns Array of Audiomack Users who are followed by specified artist
+	- Returns: If successful, returns Array of ChartEntries
 	*/
 	func getChart(chartType: ChartType, date: String, completionHandler: @escaping GetChartCompletionHandler) {
 		let year = 0
@@ -52,37 +54,92 @@ class BillboardManager: BillboardManagerProtocol {
 		let day = 0
 		let bool = validateDate(year: year, month: month, day: day)
 		if(!bool){
-			completionHandler(.failure(NSError.createDateError()))
+			completionHandler(nil, NSError.createDateError())
 		}
 		gateway.getChart(parameter: ChartParameter(name: chartType.rawValue, date: "\(year)-\(month)-\(day)")) { (result) in
-			completionHandler(result)
+			switch(result) {
+			case let .success (response):
+				completionHandler(response, nil)
+			case let .failure (error):
+				completionHandler(nil, error)
+			}
 		}
 	}
 	
-	/** Get Artist Following
+	/** Get Chart
 	
-	For more info,  https://www.audiomack.com/data-api/docs#artist-following
+	Get Chart of particular type for a particular date
 	
 	- Parameters:
-	-  parameter: ArtistParameter (slug)
+	-  chartType: ChartType (eg ChartType.hot100)
+	-  day: day of chart (20)
+	-  month: month of chart (11)
+	-  year: year of chart (2018)
 	-  completionHandler: The completion handler to call when the load request is complete.
-	`response` - A response object, or `nil` if the request failed.
-	`error` - An error object that indicates why the request failed, or `nil` if the request was successful. On failed execution, `error` may contain an `AudiomackError` with `errorcode` and `message`
+	`entries` - A response object, or `nil` if the request failed.
+	`error` - An error object that indicates why the request failed, or `nil` if the request was successful. On failed execution, `error` contains localizedDescription with message
 	
-	- Returns: If successful, returns Array of Audiomack Users who are followed by specified artist
+	- Returns: If successful, returns Array of ChartEntries
 	*/
 	func getChart(chartType: ChartType, day: Int, month: Int, year: Int, completionHandler: @escaping GetChartCompletionHandler) {
 		let bool = validateDate(year: year, month: month, day: day)
 		if(!bool){
-			completionHandler(.failure(NSError.createDateError()))
+			completionHandler(nil, NSError.createDateError())
 		}
 		gateway.getChart(parameter: ChartParameter(name: chartType.rawValue, date: "\(year)-\(month)-\(day)")) { (result) in
-			completionHandler(result)
+			switch(result) {
+			case let .success (response):
+				completionHandler(response, nil)
+			case let .failure (error):
+				completionHandler(nil, error)
+			}
 		}
 	}
 	
 	internal func validateDate(year: Int, month: Int, day: Int) -> Bool {
 		//Let all validation go here
-		return false
+		
+		if(month > 12){
+			return false
+		}
+		
+		if(day > 31){
+			return false
+		}
+		
+		if((month == 4) || (month == 6) || (month == 9) || (month == 11)){
+			if(day > 30){
+				return false
+			}
+		}
+		
+		if (year % 4 == 0) {
+			if((month == 2) && (day > 29)){
+				return false
+			}
+		} else {
+			if((month == 2) && (day > 28)){
+				return false
+			}
+		}
+		
+		let date = Date()
+		let calendar = Calendar.current
+		
+		var dateComponents: DateComponents? = calendar.dateComponents([.hour, .minute, .second], from: Date())
+		
+		dateComponents?.day = day
+		dateComponents?.month = month
+		dateComponents?.year = year
+		
+		if let enquiredDate: Date = calendar.date(from: dateComponents!){
+			if(enquiredDate > date){
+				return false
+			}
+		}else{
+			return false
+		}
+		
+		return true
 	}
 }

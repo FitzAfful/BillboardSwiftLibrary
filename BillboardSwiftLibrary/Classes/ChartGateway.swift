@@ -11,14 +11,15 @@ import Foundation
 
 
 class ChartGateway {
-	func getChart(parameter: ChartParameter, completionHandler: @escaping GetChartCompletionHandler) {
+	func getChart(parameter: ChartParameter, completionHandler: @escaping GetChartResultCompletionHandler) {
 		let apiRequest = ChartRequest(parameter: parameter)
 		apiClient.execute(request: apiRequest) { (result: Result<String>) in
 			switch result {
 			case let .success(response):
-				print(response)
-				let data = ChartData(name: parameter.name, date: parameter.date, previousDate: nil, entries: [])
-				completionHandler(.success(data))
+				if let entries = try? ChartParser().parse(response){
+					completionHandler(.success(entries))
+				}
+				completionHandler(.failure(NSError.createError("Failed to get Billboard Chart. Please try later")))
 			case let .failure(error):
 				
 				completionHandler(.failure(error))

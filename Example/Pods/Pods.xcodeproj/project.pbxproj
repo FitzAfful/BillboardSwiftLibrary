@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		053EBE593ED67837D3FA34E0B0A503BB /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EA3CDCDA2022387591982545C104EC /* JSON.swift */; };
 		058ED6A5AEE33E9390F9405E91F66F35 /* HttpStatusException.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630405AF103BE0784FC9F1DCDCD38697 /* HttpStatusException.swift */; };
 		1024D26EE7C851D9B9EA7A43248E5B99 /* ArrayExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007D3C79D0CF0BE6FF2556B8846850EA /* ArrayExt.swift */; };
 		1129F18BF6991BBCE1AD516EA163BF19 /* Whitelist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2C0DDEA29B76684DE018F529B05DAF /* Whitelist.swift */; };
@@ -80,7 +79,6 @@
 		E8EF5EFA7B8594BCF7C9B49F33F24520 /* SimpleDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537704880A3EEBF0AEBDF2621EB6A0F3 /* SimpleDictionary.swift */; };
 		E95F701F617E87C4CCCE78FA06355455 /* CharacterReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEDF1B4C93C6BF04A8B3A376D824DF8 /* CharacterReader.swift */; };
 		EB187BA877AA77128BD76CE2426F0816 /* Pods-BillboardSwiftLibrary_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D74867FFE409CCD3C1D1C9D83ED339A /* Pods-BillboardSwiftLibrary_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EF0B5912D376A215EEA0F65D3E43114D /* ChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC91B12F08927A5E05DA9D733AD14DFC /* ChartData.swift */; };
 		F19CE01415E50BBAA2F5898935837322 /* Selector.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C699DC348D289409414BCFACDADC92 /* Selector.swift */; };
 		FAFD6F4E2B066F13D3618458B3AA02FA /* NodeTraversor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8122F2BB284283B425EEEC260DED5BD /* NodeTraversor.swift */; };
 		FDC603AB33FB438150AC5E7FAFC5F3C0 /* SerializationException.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB27AFE288A80F619BD84ABCA86E98E8 /* SerializationException.swift */; };
@@ -120,7 +118,7 @@
 /* Begin PBXFileReference section */
 		00212B05525D07493B54816ED4B1207E /* BillboardSwiftLibrary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BillboardSwiftLibrary-dummy.m"; sourceTree = "<group>"; };
 		007D3C79D0CF0BE6FF2556B8846850EA /* ArrayExt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ArrayExt.swift; path = Sources/ArrayExt.swift; sourceTree = "<group>"; };
-		0145DDE4E9618E282BA90617567D434B /* BillboardSwiftLibrary.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = BillboardSwiftLibrary.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0145DDE4E9618E282BA90617567D434B /* BillboardSwiftLibrary.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = BillboardSwiftLibrary.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		039C69A0A2EB943E624CB54EF92DEFFC /* Pods-BillboardSwiftLibrary_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BillboardSwiftLibrary_Tests-resources.sh"; sourceTree = "<group>"; };
 		087587787A9E75C41139838D1AB0CB89 /* Pods-BillboardSwiftLibrary_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BillboardSwiftLibrary_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0AEE3159671F061357B3988820992AB3 /* DataUtil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataUtil.swift; path = Sources/DataUtil.swift; sourceTree = "<group>"; };
@@ -159,8 +157,7 @@
 		73DD652EC954FA79D571169EEE782E52 /* Element.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Element.swift; path = Sources/Element.swift; sourceTree = "<group>"; };
 		74C99786795B1D08392875CE49B837F6 /* CharacterExt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacterExt.swift; path = Sources/CharacterExt.swift; sourceTree = "<group>"; };
 		75616435FEC520E0AB2B9A03B42B9463 /* ParseSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParseSettings.swift; path = Sources/ParseSettings.swift; sourceTree = "<group>"; };
-		77B5E1AEE761962A56FC6625FE6BF2F9 /* Pods_BillboardSwiftLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BillboardSwiftLibrary_Tests.framework; path = "Pods-BillboardSwiftLibrary_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		78EA3CDCDA2022387591982545C104EC /* JSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSON.swift; path = BillboardSwiftLibrary/Classes/JSON.swift; sourceTree = "<group>"; };
+		77B5E1AEE761962A56FC6625FE6BF2F9 /* Pods_BillboardSwiftLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BillboardSwiftLibrary_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AC3E56F2EE8DA918D59461695CA0A73 /* ParseError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParseError.swift; path = Sources/ParseError.swift; sourceTree = "<group>"; };
 		7D11884996774307AC571FE915381DDA /* DocumentType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DocumentType.swift; path = Sources/DocumentType.swift; sourceTree = "<group>"; };
 		7E06B99125D7235986F5D7B72C6375A2 /* HtmlTreeBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HtmlTreeBuilder.swift; path = Sources/HtmlTreeBuilder.swift; sourceTree = "<group>"; };
@@ -169,19 +166,19 @@
 		832234A6E3AC81D0DB6579BEE3EF7E31 /* Pods-BillboardSwiftLibrary_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BillboardSwiftLibrary_Tests-dummy.m"; sourceTree = "<group>"; };
 		84D30BE9491E3280A95C422C824AF33C /* ChartEntry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartEntry.swift; path = BillboardSwiftLibrary/Classes/ChartEntry.swift; sourceTree = "<group>"; };
 		85BA06715F85D033EEFF5E596790DFC3 /* OrderedDictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OrderedDictionary.swift; path = Sources/OrderedDictionary.swift; sourceTree = "<group>"; };
-		85E0B72DF70E3DBB1A2D7B8E360EB84D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		85E0B72DF70E3DBB1A2D7B8E360EB84D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		87CACAEFCE668D890A5350CD0A09455D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88AD2063C746E24C76A695124CB8F61C /* Cleaner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cleaner.swift; path = Sources/Cleaner.swift; sourceTree = "<group>"; };
 		891F553D19B720459C76E855199AE6A8 /* Collector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Collector.swift; path = Sources/Collector.swift; sourceTree = "<group>"; };
 		8A1F325B672FA8D8142FC144A887D98B /* Pods-BillboardSwiftLibrary_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BillboardSwiftLibrary_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		9161B06CA12DCBC5B4DD06E44D91CB1E /* SwiftSoup.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftSoup.modulemap; sourceTree = "<group>"; };
 		91F70944F55E23CA9F1AA9C3F5E543E6 /* Attribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Attribute.swift; path = Sources/Attribute.swift; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		97B9BE6A120CF124AC947FD213458C40 /* TextNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextNode.swift; path = Sources/TextNode.swift; sourceTree = "<group>"; };
-		98687372DF16891A3B084A8386CC595D /* SwiftSoup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftSoup.framework; path = SwiftSoup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98687372DF16891A3B084A8386CC595D /* SwiftSoup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftSoup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A1C5C6357B71AF5FED442F9E3F6C77C /* XmlDeclaration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XmlDeclaration.swift; path = Sources/XmlDeclaration.swift; sourceTree = "<group>"; };
 		9CF8CDB58FEC3DF8E9E9C788D7986C1A /* Evaluator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Evaluator.swift; path = Sources/Evaluator.swift; sourceTree = "<group>"; };
-		9DC9227E682B678E266E8C6D73F25462 /* Pods_BillboardSwiftLibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BillboardSwiftLibrary_Example.framework; path = "Pods-BillboardSwiftLibrary_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DC9227E682B678E266E8C6D73F25462 /* Pods_BillboardSwiftLibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BillboardSwiftLibrary_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E7F17F2F550754AAF9D410D5F392FE1 /* SwiftSoup-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSoup-umbrella.h"; sourceTree = "<group>"; };
 		9EB0D3E145F3DCAEBF77732E2162B142 /* ChartParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartParser.swift; path = BillboardSwiftLibrary/Classes/ChartParser.swift; sourceTree = "<group>"; };
 		A060C6BF3EB96502284C4EED48AE8473 /* Entities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Entities.swift; path = Sources/Entities.swift; sourceTree = "<group>"; };
@@ -193,7 +190,7 @@
 		AE8995C89EB99D9CA95E22F4E0E91887 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = BillboardSwiftLibrary/Classes/Result.swift; sourceTree = "<group>"; };
 		B5B02817571460D12270E8F2EEAC2913 /* Pods-BillboardSwiftLibrary_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BillboardSwiftLibrary_Example-frameworks.sh"; sourceTree = "<group>"; };
 		B8514C0BB18FD3CA82876085C5D13D55 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BA018C19AAE60CA82360C510A6105388 /* BillboardSwiftLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BillboardSwiftLibrary.framework; path = BillboardSwiftLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA018C19AAE60CA82360C510A6105388 /* BillboardSwiftLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BillboardSwiftLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA80EA825456A85C5EAC81128B7D2A13 /* StreamReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StreamReader.swift; path = Sources/StreamReader.swift; sourceTree = "<group>"; };
 		BAD7FE9BBC26C485FA0644BE827A3819 /* SwiftSoup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSoup.swift; path = Sources/SwiftSoup.swift; sourceTree = "<group>"; };
 		BE85808BF20F785856A36A4A52D595EC /* Pattern.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Pattern.swift; path = Sources/Pattern.swift; sourceTree = "<group>"; };
@@ -202,12 +199,11 @@
 		C7741A1500DB1A5001C5A2838E158E49 /* BillboardSwiftLibrary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BillboardSwiftLibrary-umbrella.h"; sourceTree = "<group>"; };
 		C9C5CCBBDF57CA2EE14AE5EA065F8397 /* BillboardSwiftLibrary.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BillboardSwiftLibrary.xcconfig; sourceTree = "<group>"; };
 		CC676503D7AA719B6B12FA7C365E4EEE /* SwiftSoup.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftSoup.xcconfig; sourceTree = "<group>"; };
-		CC91B12F08927A5E05DA9D733AD14DFC /* ChartData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartData.swift; path = BillboardSwiftLibrary/Classes/ChartData.swift; sourceTree = "<group>"; };
 		D0956AF381D1BCA58B1DB673ADE2D36F /* UnicodeScalar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnicodeScalar.swift; path = Sources/UnicodeScalar.swift; sourceTree = "<group>"; };
 		D1C2A0925E08EF37481D505985B05550 /* Pods-BillboardSwiftLibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BillboardSwiftLibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D2BC169E0309F4CEFD272242438F1BCF /* BillboardSwiftLibrary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BillboardSwiftLibrary-prefix.pch"; sourceTree = "<group>"; };
 		D42BC9F92D0C8F2831D861DB16239217 /* BillboardSwiftLibrary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BillboardSwiftLibrary.modulemap; sourceTree = "<group>"; };
-		D44436E41FD6A1E5FD4D9F4957D1D055 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D44436E41FD6A1E5FD4D9F4957D1D055 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D61E30D96D9E0C51D7D98102AF5F400C /* Comment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Comment.swift; path = Sources/Comment.swift; sourceTree = "<group>"; };
 		D82C0363736F54D355C889057930C8FA /* StringUtil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringUtil.swift; path = Sources/StringUtil.swift; sourceTree = "<group>"; };
 		D956F25711ABFDA06A834B23E76E18FD /* Tag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Tag.swift; path = Sources/Tag.swift; sourceTree = "<group>"; };
@@ -402,7 +398,6 @@
 				579FD986C85730D8DF75FB2A4152B0BD /* XmlTreeBuilder.swift */,
 				2585406248F42708599608914EA31A98 /* Support Files */,
 			);
-			name = SwiftSoup;
 			path = SwiftSoup;
 			sourceTree = "<group>";
 		};
@@ -445,12 +440,10 @@
 			isa = PBXGroup;
 			children = (
 				28207C2B39A54E384B0283892EEB5DE0 /* BillboardManager.swift */,
-				CC91B12F08927A5E05DA9D733AD14DFC /* ChartData.swift */,
 				84D30BE9491E3280A95C422C824AF33C /* ChartEntry.swift */,
 				3B1CD457016C5CED9561EE41543A796D /* ChartGateway.swift */,
 				9EB0D3E145F3DCAEBF77732E2162B142 /* ChartParser.swift */,
 				BEC5BDD54C56E238FF81FFA9075158BE /* ChartRequests.swift */,
-				78EA3CDCDA2022387591982545C104EC /* JSON.swift */,
 				AE8995C89EB99D9CA95E22F4E0E91887 /* Result.swift */,
 				E073C2E8A0180E1401125C569860776B /* Pod */,
 				51833C44550F5A286E912340A41BDE97 /* Support Files */,
@@ -631,12 +624,10 @@
 			files = (
 				8E7F610F30BD1F788F15615F7B6BB6FB /* BillboardManager.swift in Sources */,
 				148EF8A368BC0F8E21CAD10FB3E12943 /* BillboardSwiftLibrary-dummy.m in Sources */,
-				EF0B5912D376A215EEA0F65D3E43114D /* ChartData.swift in Sources */,
 				71B3F41DED452015B907DAF1E0B392DB /* ChartEntry.swift in Sources */,
 				4E78A1FCABFF9E103957CF56EDB6C964 /* ChartGateway.swift in Sources */,
 				381681DCA7F863E645131D8B34473C78 /* ChartParser.swift in Sources */,
 				910963A974597A305B905FF3FB8B840D /* ChartRequests.swift in Sources */,
-				053EBE593ED67837D3FA34E0B0A503BB /* JSON.swift in Sources */,
 				382E575CD0ED339E4F44B34D0DC77AD2 /* Result.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
