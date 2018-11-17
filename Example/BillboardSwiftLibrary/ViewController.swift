@@ -14,16 +14,14 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 		
-		
-		let parser = ChartParser()
-		
-		do {
-			let html = try String.init(contentsOf: URL(string: "https://www.billboard.com/charts/hot-100/2011-01-01")!)
-			let string = try parser.parse(html)
+		let manager = BillboardManager()
+		manager.getChart(chartType: ChartType.hot100, date: "2018-11-17") { (entries, error) in
+			if error != nil{
+				print(error!.localizedDescription)
+				return
+			}
 			
-			print(string)
-		}catch(let error){
-			print(error.localizedDescription)
+			print(entries!) //Array of ChartEntry
 		}
 		
     }

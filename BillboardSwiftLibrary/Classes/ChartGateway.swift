@@ -10,26 +10,26 @@ import Foundation
 
 
 
-class ChartGateway {
-	func getChart(parameter: ChartParameter, completionHandler: @escaping GetChartResultCompletionHandler) {
+public class ChartGateway {
+	public func getChart(parameter: ChartParameter, completionHandler: @escaping GetChartResultCompletionHandler) {
 		let apiRequest = ChartRequest(parameter: parameter)
 		apiClient.execute(request: apiRequest) { (result: Result<String>) in
 			switch result {
 			case let .success(response):
 				if let entries = try? ChartParser().parse(response){
 					completionHandler(.success(entries))
+					return
 				}
 				completionHandler(.failure(NSError.createError("Failed to get Billboard Chart. Please try later")))
 			case let .failure(error):
-				
 				completionHandler(.failure(error))
 			}
 		}
 	}
 	
-	let apiClient: ApiClient
+	public let apiClient: ApiClient
 	
-	init(apiClient: ApiClient) {
+	public init(apiClient: ApiClient) {
 		self.apiClient = apiClient
 	}
 	
@@ -39,7 +39,7 @@ class ChartGateway {
 
 
 // All entities that model the API responses can implement this so we can handle all responses in a generic way
-protocol InitializableWithData {
+public protocol InitializableWithData {
 	init(data: Data?) throws
 }
 
@@ -78,12 +78,12 @@ struct ApiParseError: Error {
 
 // This wraps a successful API response and it includes the generic data as well
 // The reason why we need this wrapper is that we want to pass to the client the status code and the raw response as well
-struct ApiResponse<T: InitializableWithData> {
+public struct ApiResponse<T: InitializableWithData> {
 	let entity: T
 	let httpUrlResponse: HTTPURLResponse
 	let data: Data?
 	
-	init(data: Data?, httpUrlResponse: HTTPURLResponse) throws {
+	public init(data: Data?, httpUrlResponse: HTTPURLResponse) throws {
 		do {
 			self.entity = try T(data: data)
 			self.httpUrlResponse = httpUrlResponse
@@ -103,7 +103,7 @@ struct VoidResponse: InitializableWithData {
 }
 
 extension Array: InitializableWithData {
-	init(data: Data?) throws {
+	public init(data: Data?) throws {
 		if(!(data != nil)){
 			throw NSError.createParseError()
 		}
@@ -144,7 +144,7 @@ extension Array: InitializableWithData {
 	}
 }
 
-extension NSError {
+public extension NSError {
 	static func createParseError() -> NSError {
 		return NSError(domain: "BillboardSwiftLibrary",
 					   code: ApiParseError.code,

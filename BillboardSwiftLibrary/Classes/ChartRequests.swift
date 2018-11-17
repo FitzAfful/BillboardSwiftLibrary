@@ -29,9 +29,14 @@ public let _PEAK_POS_FORMAT = "weeks-at-one"
 public let _LAST_POS_FORMAT = "last-week"
 public let _WEEKS_ON_CHART_FORMAT = "weeks-on-chart"
 
-struct ChartParameter {
-	var name: String
-	var date: String
+public struct ChartParameter {
+	public var name: String
+	public var date: String
+	
+	public init(name: String, date: String){
+		self.name = name
+		self.date = date
+	}
 }
 
 struct ChartRequest: ApiRequest {
@@ -50,36 +55,36 @@ struct ChartRequest: ApiRequest {
 
 
 
-protocol ApiRequest {
+public protocol ApiRequest {
 	var urlRequest: URLRequest { get }
 }
 
-protocol ApiClient {
+public protocol ApiClient {
 	func execute<T>(request: ApiRequest, completionHandler: @escaping (_ result: Result<ApiResponse<T>>) -> Void)
 	func execute(request: ApiRequest, completionHandler: @escaping (_ result: Result<String>) -> Void)
 }
 
-protocol URLSessionProtocol {
+public protocol URLSessionProtocol {
 	func dataTask(with request: URLRequest, completionHandler: @escaping (Data?, URLResponse?, Error?) -> Void) -> URLSessionDataTask
 }
 
 extension URLSession: URLSessionProtocol { }
 
-class ApiClientImplementation: ApiClient {
-	let urlSession: URLSessionProtocol
+public class ApiClientImplementation: ApiClient {
+	public let urlSession: URLSessionProtocol
 	
-	init(urlSessionConfiguration: URLSessionConfiguration, completionHandlerQueue: OperationQueue) {
+	public init(urlSessionConfiguration: URLSessionConfiguration, completionHandlerQueue: OperationQueue) {
 		urlSession = URLSession(configuration: urlSessionConfiguration, delegate: nil, delegateQueue: completionHandlerQueue)
 	}
 	
 	// This should be used mainly for testing purposes
-	init(urlSession: URLSessionProtocol) {
+	public init(urlSession: URLSessionProtocol) {
 		self.urlSession = urlSession
 	}
 	
 	// MARK: - ApiClient
 	
-	func execute<T>(request: ApiRequest, completionHandler: @escaping (Result<ApiResponse<T>>) -> Void) {
+	public func execute<T>(request: ApiRequest, completionHandler: @escaping (Result<ApiResponse<T>>) -> Void) {
 		let dataTask = urlSession.dataTask(with: request.urlRequest) { (data, response, error) in
 			guard let httpUrlResponse = response as? HTTPURLResponse else {
 				completionHandler(.failure(NetworkRequestError(error: error)))
@@ -101,7 +106,7 @@ class ApiClientImplementation: ApiClient {
 		dataTask.resume()
 	}
 	
-	func execute(request: ApiRequest, completionHandler: @escaping (Result<String>) -> Void) {
+	public func execute(request: ApiRequest, completionHandler: @escaping (Result<String>) -> Void) {
 		let dataTask = urlSession.dataTask(with: request.urlRequest) { (data, response, error) in
 			guard let httpUrlResponse = response as? HTTPURLResponse else {
 				completionHandler(.failure(NetworkRequestError(error: error)))

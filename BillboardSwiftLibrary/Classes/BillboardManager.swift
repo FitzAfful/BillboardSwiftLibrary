@@ -10,27 +10,27 @@ import Foundation
 public typealias GetChartCompletionHandler = (_ entries: [ChartEntry]?, _ error: Error?) -> Void
 public typealias GetChartResultCompletionHandler = (_ result: Result<[ChartEntry]>) -> Void
 
-enum ChartType: String {
+public enum ChartType: String {
 	case hot100 = "hot-100"
 }
 
 protocol BillboardManagerProtocol {
-	//Date in String,
 	func getChart(chartType: ChartType, date: String, completionHandler: @escaping GetChartCompletionHandler)
 	
-	//Date in String,
+	func getChart(chartType: ChartType, completionHandler: @escaping GetChartCompletionHandler)
+	
 	func getChart(chartType: ChartType, day: Int, month: Int, year: Int, completionHandler: @escaping GetChartCompletionHandler)
 	
 	//Check if Date is correct and chart can be found for that date.
 	func validateDate(year:Int, month:Int, day: Int)->Bool
 }
 
-class BillboardManager: BillboardManagerProtocol {
+public class BillboardManager: BillboardManagerProtocol {
 	
 	private let apiClient: ApiClient
 	private let gateway: ChartGateway
 	
-	init() {
+	public init() {
 		apiClient = ApiClientImplementation(urlSessionConfiguration: URLSessionConfiguration.default,completionHandlerQueue: OperationQueue.main)
 		gateway = ChartGateway(apiClient: apiClient)
 	}
@@ -48,14 +48,46 @@ class BillboardManager: BillboardManagerProtocol {
 	
 	- Returns: If successful, returns Array of ChartEntries
 	*/
-	func getChart(chartType: ChartType, date: String, completionHandler: @escaping GetChartCompletionHandler) {
-		let year = 0
-		let month = 0
-		let day = 0
-		let bool = validateDate(year: year, month: month, day: day)
-		if(!bool){
+	public func getChart(chartType: ChartType, date: String, completionHandler: @escaping GetChartCompletionHandler) {
+		
+		let dateFormatter = DateFormatter()
+		dateFormatter.dateFormat = "yyyy-MM-dd"
+		
+		if let myDate = dateFormatter.date(from: date) {
+			let year = Calendar.current.component(Calendar.Component.year, from: myDate)
+			let month = Calendar.current.component(Calendar.Component.month, from: myDate)
+			let day = Calendar.current.component(Calendar.Component.day, from: myDate)
+			let bool = validateDate(year: year, month: month, day: day)
+			if(!bool){
+				completionHandler(nil, NSError.createDateError())
+				return
+			}
+			self.getChart(chartType: chartType, day: day, month: month, year: year) { (entries, error) in
+				completionHandler(entries, error)
+			}
+		} else {
 			completionHandler(nil, NSError.createDateError())
 		}
+	}
+	
+	/** Get Current Chart
+	
+	Get Chart of particular type for a particular date
+	
+	- Parameters:
+	-  chartType: ChartType (eg ChartType.hot100)
+	-  completionHandler: The completion handler to call when the load request is complete.
+	`entries` - A response object, or `nil` if the request failed.
+	`error` - An error object that indicates why the request failed, or `nil` if the request was successful. On failed execution, `error` contains localizedDescription with message
+	
+	- Returns: If successful, returns Array of ChartEntries
+	*/
+	func getChart(chartType: ChartType, completionHandler: @escaping GetChartCompletionHandler) {
+		let myDate = Date()
+		let year = Calendar.current.component(Calendar.Component.year, from: myDate)
+		let month = Calendar.current.component(Calendar.Component.month, from: myDate)
+		let day = Calendar.current.component(Calendar.Component.day, from: myDate)
+		
 		gateway.getChart(parameter: ChartParameter(name: chartType.rawValue, date: "\(year)-\(month)-\(day)")) { (result) in
 			switch(result) {
 			case let .success (response):
@@ -81,10 +113,11 @@ class BillboardManager: BillboardManagerProtocol {
 	
 	- Returns: If successful, returns Array of ChartEntries
 	*/
-	func getChart(chartType: ChartType, day: Int, month: Int, year: Int, completionHandler: @escaping GetChartCompletionHandler) {
+	public func getChart(chartType: ChartType, day: Int, month: Int, year: Int, completionHandler: @escaping GetChartCompletionHandler) {
 		let bool = validateDate(year: year, month: month, day: day)
 		if(!bool){
 			completionHandler(nil, NSError.createDateError())
+			return
 		}
 		gateway.getChart(parameter: ChartParameter(name: chartType.rawValue, date: "\(year)-\(month)-\(day)")) { (result) in
 			switch(result) {
@@ -97,7 +130,6 @@ class BillboardManager: BillboardManagerProtocol {
 	}
 	
 	internal func validateDate(year: Int, month: Int, day: Int) -> Bool {
-		//Let all validation go here
 		
 		if(month > 12){
 			return false
@@ -143,3 +175,4 @@ class BillboardManager: BillboardManagerProtocol {
 		return true
 	}
 }
+
