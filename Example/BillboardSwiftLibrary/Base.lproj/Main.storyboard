@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="5pH-YR-AIu">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Billboard Charts-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="BillboardSwiftLibrary_Example" customModuleProvider="target" sceneMemberID="viewController">
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <viewController id="vXZ-lx-hvc" customClass="ChartsListController" customModule="BillboardSwiftLibrary_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -20,11 +21,79 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="u8S-4r-XmT">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="u8S-4r-XmT" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="7JA-se-w6l"/>
+                            <constraint firstItem="u8S-4r-XmT" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="lLb-Ri-lmd"/>
+                            <constraint firstItem="u8S-4r-XmT" firstAttribute="bottom" secondItem="2fi-mo-0CV" secondAttribute="top" id="nEC-Xq-aPc"/>
+                            <constraint firstAttribute="trailing" secondItem="u8S-4r-XmT" secondAttribute="trailing" id="s6j-UX-5zJ"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="Billboard Charts" id="H7E-nk-Hdn"/>
+                    <connections>
+                        <outlet property="tableView" destination="u8S-4r-XmT" id="MIE-FQ-J0b"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1942" y="-397"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="c7W-m9-Vpx">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="5pH-YR-AIu" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="c0q-T6-LMM">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="E1o-dS-Wyn"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ban-N7-2Vc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1186" y="-397"/>
+        </scene>
+        <!--Chart Details Controller-->
+        <scene sceneID="mFJ-8l-Ugw">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="s2H-mi-POv" sceneMemberID="firstResponder"/>
+                <viewController storyboardIdentifier="ChartDetailsController" id="g85-8d-Cqv" customClass="ChartDetailsController" customModule="BillboardSwiftLibrary_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ctV-cv-d1e"/>
+                        <viewControllerLayoutGuide type="bottom" id="GeU-hb-gOl"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="eCg-nU-WOp">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="UZ5-WR-VMM">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="UZ5-WR-VMM" secondAttribute="trailing" id="L6w-Z9-4YK"/>
+                            <constraint firstItem="UZ5-WR-VMM" firstAttribute="top" secondItem="ctV-cv-d1e" secondAttribute="bottom" id="bjv-CE-8xj"/>
+                            <constraint firstItem="UZ5-WR-VMM" firstAttribute="bottom" secondItem="GeU-hb-gOl" secondAttribute="top" id="deO-1b-IGT"/>
+                            <constraint firstItem="UZ5-WR-VMM" firstAttribute="leading" secondItem="eCg-nU-WOp" secondAttribute="leading" id="mLR-xE-nrb"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="72g-EW-wWN"/>
+                    <connections>
+                        <outlet property="tableView" destination="UZ5-WR-VMM" id="Mr5-J2-eKY"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="2669.5999999999999" y="-397.15142428785612"/>
         </scene>
     </scenes>
 </document>

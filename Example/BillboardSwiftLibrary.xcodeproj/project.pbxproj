@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
+		607FACD81AFB9204008FA782 /* ChartsListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ChartsListController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		60A0A5B278EB1647DE1745C2 /* Pods_BillboardSwiftLibrary_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 892ECCF0C01AD3EA536CF9B1 /* Pods_BillboardSwiftLibrary_Tests.framework */; };
+		84A3878A21A0908D0079C622 /* ChartDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A3878921A0908D0079C622 /* ChartDetailsController.swift */; };
+		84A3878D21A091420079C622 /* ChartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A3878B21A091420079C622 /* ChartCell.swift */; };
+		84A3878E21A091420079C622 /* ChartCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84A3878C21A091420079C622 /* ChartCell.xib */; };
 		B0F552777D8C20D833D4B92E /* Pods_BillboardSwiftLibrary_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D53FD5B0C3C42BC601C2C36A /* Pods_BillboardSwiftLibrary_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,7 +35,7 @@
 		607FACD01AFB9204008FA782 /* BillboardSwiftLibrary_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BillboardSwiftLibrary_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		607FACD71AFB9204008FA782 /* ChartsListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsListController.swift; sourceTree = "<group>"; };
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -41,6 +44,9 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7C1B9A8CCB78DD4AAB96CED8 /* Pods-BillboardSwiftLibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BillboardSwiftLibrary_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BillboardSwiftLibrary_Tests/Pods-BillboardSwiftLibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		7FA453090156B27EE50D56B2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		84A3878921A0908D0079C622 /* ChartDetailsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartDetailsController.swift; sourceTree = "<group>"; };
+		84A3878B21A091420079C622 /* ChartCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartCell.swift; sourceTree = "<group>"; };
+		84A3878C21A091420079C622 /* ChartCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChartCell.xib; sourceTree = "<group>"; };
 		892ECCF0C01AD3EA536CF9B1 /* Pods_BillboardSwiftLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BillboardSwiftLibrary_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FDC91E1ECA9D16AB0104573 /* Pods-BillboardSwiftLibrary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BillboardSwiftLibrary_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-BillboardSwiftLibrary_Example/Pods-BillboardSwiftLibrary_Example.release.xcconfig"; sourceTree = "<group>"; };
 		99539C4A602B2DC3872FFB4B /* Pods-BillboardSwiftLibrary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BillboardSwiftLibrary_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BillboardSwiftLibrary_Example/Pods-BillboardSwiftLibrary_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -94,11 +100,14 @@
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				607FACD71AFB9204008FA782 /* ChartsListController.swift */,
+				84A3878921A0908D0079C622 /* ChartDetailsController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				84A3878B21A091420079C622 /* ChartCell.swift */,
+				84A3878C21A091420079C622 /* ChartCell.xib */,
 			);
 			name = "Example for BillboardSwiftLibrary";
 			path = BillboardSwiftLibrary;
@@ -247,6 +256,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84A3878E21A091420079C622 /* ChartCell.xib in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
@@ -271,11 +281,13 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-BillboardSwiftLibrary_Example/Pods-BillboardSwiftLibrary_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/BillboardSwiftLibrary/BillboardSwiftLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/FTIndicator/FTIndicator.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftSoup/SwiftSoup.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BillboardSwiftLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FTIndicator.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSoup.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -326,8 +338,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				84A3878D21A091420079C622 /* ChartCell.swift in Sources */,
+				607FACD81AFB9204008FA782 /* ChartsListController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				84A3878A21A0908D0079C622 /* ChartDetailsController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

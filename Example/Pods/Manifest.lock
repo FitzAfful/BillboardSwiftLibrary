@@ -1,13 +1,22 @@
 PODS:
   - BillboardSwiftLibrary (0.1.0):
     - SwiftSoup (~> 1.7.4)
+  - FTIndicator (1.2.9):
+    - FTIndicator/FTNotificationIndicator (= 1.2.9)
+    - FTIndicator/FTProgressIndicator (= 1.2.9)
+    - FTIndicator/FTToastIndicator (= 1.2.9)
+  - FTIndicator/FTNotificationIndicator (1.2.9)
+  - FTIndicator/FTProgressIndicator (1.2.9)
+  - FTIndicator/FTToastIndicator (1.2.9)
   - SwiftSoup (1.7.4)
 
 DEPENDENCIES:
   - BillboardSwiftLibrary (from `../`)
+  - FTIndicator
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - FTIndicator
     - SwiftSoup
 
 EXTERNAL SOURCES:
@@ -16,8 +25,9 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   BillboardSwiftLibrary: 7a3d43f067ea45422ed80f26cf0143644ead43fd
+  FTIndicator: f7f071fd159e5befa1d040a9ef2e3ab53fa9322c
   SwiftSoup: 92f5b348c131aed8af04f4326db1579ab19fa08c
 
-PODFILE CHECKSUM: 3f2fa65b9444cb03bca92b6f70c7518255470125
+PODFILE CHECKSUM: ec46821aef1871f7c8484bcac2a595b37f096cd1
 
 COCOAPODS: 1.5.3
