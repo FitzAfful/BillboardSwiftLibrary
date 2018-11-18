@@ -193,7 +193,6 @@
 		6568A228A85CB2BC0695002E98507C3F /* Tokeniser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Tokeniser.swift; path = Sources/Tokeniser.swift; sourceTree = "<group>"; };
 		674B01A383CB1F7C6D0C1E99A9A2F598 /* Node.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Node.swift; path = Sources/Node.swift; sourceTree = "<group>"; };
 		688EE943BA02D591DF915B61CA3B0F3D /* Element.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Element.swift; path = Sources/Element.swift; sourceTree = "<group>"; };
-		69FCD10D30D6295F0DE70C34343FDA14 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B3E1FBE9BE1CFE6B56BD0379174853C /* CharacterReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacterReader.swift; path = Sources/CharacterReader.swift; sourceTree = "<group>"; };
 		6DA18B97044D0733B7DCD267087C317D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F6D69B138C06B4A084C7EA8D02FE73C /* FTToastIndicator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FTToastIndicator.h; path = FTIndicator/FTToastIndicator/FTToastIndicator.h; sourceTree = "<group>"; };
@@ -202,6 +201,7 @@
 		80AA7218A10937B7CBA79DEE0C9C56BF /* FTIndicator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FTIndicator.m; path = FTIndicator/FTIndicator.m; sourceTree = "<group>"; };
 		812B888BB8F2D788DB7C3E7CB7B17C42 /* Token.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Token.swift; path = Sources/Token.swift; sourceTree = "<group>"; };
 		832234A6E3AC81D0DB6579BEE3EF7E31 /* Pods-BillboardSwiftLibrary_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BillboardSwiftLibrary_Tests-dummy.m"; sourceTree = "<group>"; };
+		840D001921A10D9400C60F9B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84516269802C78B724F72BAD66C0254E /* XmlDeclaration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XmlDeclaration.swift; path = Sources/XmlDeclaration.swift; sourceTree = "<group>"; };
 		84A3878F21A094A90079C622 /* ChartEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ChartEnums.swift; path = BillboardSwiftLibrary/Classes/ChartEnums.swift; sourceTree = "<group>"; };
 		85E6D7A951EB6FCB5859675C7379E902 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -516,12 +516,12 @@
 		9DA3923F462EC171B961B556A338B707 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
+				840D001921A10D9400C60F9B /* Info.plist */,
 				511A40A4A1932146B5F5CF83703F46DA /* BillboardSwiftLibrary.modulemap */,
 				1FF2D405A195F294DEA044F07A9B4398 /* BillboardSwiftLibrary.xcconfig */,
 				4A2E645295B6D78FC0F8EBEE3CE3E307 /* BillboardSwiftLibrary-dummy.m */,
 				E2F3F266598EE77404ACC58850A6D1EC /* BillboardSwiftLibrary-prefix.pch */,
 				31E13B9D4191B6A2732C06016763F76D /* BillboardSwiftLibrary-umbrella.h */,
-				69FCD10D30D6295F0DE70C34343FDA14 /* Info.plist */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/BillboardSwiftLibrary";

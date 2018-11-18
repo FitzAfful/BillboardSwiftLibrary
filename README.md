@@ -56,6 +56,8 @@ manager.getChart(chartType: ChartType.hot100, day: 18, month: 11, year: 2018) { 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+- iOS 9.0+ / OSX 10.10+
+- Swift 4.0+
 
 ## Installation
 
