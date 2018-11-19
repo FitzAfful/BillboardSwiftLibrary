@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BillboardSwiftLibrary'
-  s.version          = '0.1.0'
+  s.version          = '0.1.2'
   s.summary          = 'Swift API for downloading Billboard charts'
 
 # This description is used to generate tags and improve search results.
@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
   s.osx.deployment_target = '10.10'
 
-  s.source_files = 'BillboardSwiftLibrary/Classes/**/*'
+  s.source_files = 'Sources/**/*'
   
   # s.resource_bundles = {
   #   'BillboardSwiftLibrary' => ['BillboardSwiftLibrary/Assets/*.png']

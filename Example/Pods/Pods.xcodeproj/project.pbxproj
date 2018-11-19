@@ -22,18 +22,15 @@
 		3A6B818D5CF2A2B595302FE94F7C275C /* Pods-BillboardSwiftLibrary_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 832234A6E3AC81D0DB6579BEE3EF7E31 /* Pods-BillboardSwiftLibrary_Tests-dummy.m */; };
 		4474A1563E2E31FD6C280E22F86734C6 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153CEC46CCB1EBBF58C109FBA6DC7688 /* Connection.swift */; };
 		44E484CE3C894271E75E012EBBF62987 /* HtmlTreeBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47736D0C3429D927DD6590598C8DF13C /* HtmlTreeBuilder.swift */; };
-		45BBD6C2663F4FF94C9C1415CB787036 /* ChartGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133B978523E325B3EE2B549CEDFF3D7D /* ChartGateway.swift */; };
 		4689102A60DB49CCBF6F4A7F8F6C2427 /* DocumentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C8DA1EEBB3FB7E07F643A82F3B623B /* DocumentType.swift */; };
 		46C87546E102D326E5572D4E0BF709F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E298DC4C55BC17F6F8CAD1908B3AFC7 /* Foundation.framework */; };
 		47F7F11DAC3F8F1CC4E69BE4652A153D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E298DC4C55BC17F6F8CAD1908B3AFC7 /* Foundation.framework */; };
 		48CD8674B03738A3A6401C9D5CF2247C /* Pods-BillboardSwiftLibrary_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F39F4A14127B8AC32EB81150FF65AB65 /* Pods-BillboardSwiftLibrary_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		498C6B097B415817EF9E2CDDA0C85609 /* ChartEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA241431704BB10E56F04479D33FED2 /* ChartEntry.swift */; };
 		4A6034B94F0627028EC8C5FD6A3FD60F /* ParseErrorList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0EC2E194A1ACB6676C123806E66172 /* ParseErrorList.swift */; };
 		4C1640EA667F502D80A929811F987EA1 /* StructuralEvaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD843E961D4ADBB1B4C60D450CB47748 /* StructuralEvaluator.swift */; };
 		4D472CA6F2D69A175CA36DC8782923D8 /* FTProgressIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2750D99CC8E2826B5C00516F76FAC29E /* FTProgressIndicator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0"; }; };
 		4ED1F4D4438F2E17755244E4C25053C7 /* BillboardSwiftLibrary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2E645295B6D78FC0F8EBEE3CE3E307 /* BillboardSwiftLibrary-dummy.m */; };
 		5033511AFAC0F0F554A57929EAD0F199 /* FTToastIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6319ADEAA44E9E6B37D3D7DD176CE4 /* FTToastIndicator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0"; }; };
-		524D449FB0B7EF57136E67A306AE5D9A /* BillboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89CF053FA1BB5DDE1D735E2B195E1B9 /* BillboardManager.swift */; };
 		55AA4BB1683E2AA945A276B6902CC3B9 /* StringBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1854DD05DD947E29AB102BFEB56D8F /* StringBuilder.swift */; };
 		586E6F548606899EB1DBE62869D56751 /* CharacterExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE2BAFE291FE03997F65D77EB892427 /* CharacterExt.swift */; };
 		5F841785941D1DB2973B500165D361E2 /* TreeBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615D1DDE880E9424E8A6D8145C4BC761 /* TreeBuilder.swift */; };
@@ -45,13 +42,18 @@
 		801077C25896292935C1A41BB92091D6 /* Entities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08ADE8A7DD95C63AA81E3875C1FBACA5 /* Entities.swift */; };
 		8360C8879E3BA8C65753C035462ED2BF /* FTToastIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F6D69B138C06B4A084C7EA8D02FE73C /* FTToastIndicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		83B12B87257B5C2CF9F08480453070F1 /* FTIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 80AA7218A10937B7CBA79DEE0C9C56BF /* FTIndicator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		84A3879021A094A90079C622 /* ChartEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A3878F21A094A90079C622 /* ChartEnums.swift */; };
+		84FEBD9621A2F1A40090D4BD /* ChartEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FEBD8F21A2F1A40090D4BD /* ChartEntry.swift */; };
+		84FEBD9721A2F1A40090D4BD /* ChartGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FEBD9021A2F1A40090D4BD /* ChartGateway.swift */; };
+		84FEBD9821A2F1A40090D4BD /* ChartParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FEBD9121A2F1A40090D4BD /* ChartParser.swift */; };
+		84FEBD9921A2F1A40090D4BD /* BillboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FEBD9221A2F1A40090D4BD /* BillboardManager.swift */; };
+		84FEBD9A21A2F1A40090D4BD /* ChartRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FEBD9321A2F1A40090D4BD /* ChartRequests.swift */; };
+		84FEBD9B21A2F1A40090D4BD /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FEBD9421A2F1A40090D4BD /* Result.swift */; };
+		84FEBD9C21A2F1A40090D4BD /* ChartEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FEBD9521A2F1A40090D4BD /* ChartEnums.swift */; };
 		898F345674C3CD2910555165666737D9 /* TokenQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B2D70182E55480215127C23E58B819 /* TokenQueue.swift */; };
 		8C8E1FE265A5780947028CB222CEC503 /* CharacterReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3E1FBE9BE1CFE6B56BD0379174853C /* CharacterReader.swift */; };
 		8D27F58210BCBF170E28B75B3D83D20A /* FTNotificationIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = E37BCA9C5A699F961A7B0FEA81F7AB8A /* FTNotificationIndicator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0"; }; };
 		8FAFB5E7154D0997D51CA5EDE1EE6370 /* SwiftSoup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E3373203406556D6EB12D95CB163EE /* SwiftSoup.swift */; };
 		92C95355EF6F0D7742BD95FD5D7F6B2A /* HtmlTreeBuilderState.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4283C23676E09B6BB63A9A27A31920 /* HtmlTreeBuilderState.swift */; };
-		9718FEC1DBFC7C0308326D23E8598BE0 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E8037633AC31B72D08E04216CD27DD /* Result.swift */; };
 		97F6F7FB99763823390B3CEFAAD8103E /* UnicodeScalar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D763C12F9C18D88D11206E880B98B2B /* UnicodeScalar.swift */; };
 		98002F07A4B2AE0B1B8906B7693E9804 /* Exception.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4200F8804CFEB8B215A7D2C8F0BDCEDD /* Exception.swift */; };
 		9AB381C1558B79DF9B4E4B09DD071F20 /* Elements.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF28389ADE8033D93843730D0B767A2B /* Elements.swift */; };
@@ -67,7 +69,6 @@
 		B23084935108C45768DC44974ED21F3C /* OrderedDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA7A49D1D3F6397DD98C019D3E3F78C /* OrderedDictionary.swift */; };
 		B535DA8521C7361C7F51A5CFED857D2A /* FTIndicator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A7EC62D76A1FFD762A48E5622ED5ACF2 /* FTIndicator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B762ADF10B6EA391E8991657C61AED23 /* Pods-BillboardSwiftLibrary_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E99CD2DA411BEF08B6F46CBAC0038240 /* Pods-BillboardSwiftLibrary_Example-dummy.m */; };
-		B8B1943943637950F89212BFF256290D /* ChartRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036BF218BEAEC4C3EA3BEBAF11949B56 /* ChartRequests.swift */; };
 		B9227614DEE931A00428BF53737DBA77 /* NodeVisitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8BD18E24D1B74D36179506E316BDD5 /* NodeVisitor.swift */; };
 		B9FEBF2A791D586B035EA5539F8F21D1 /* SwiftSoup-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E277847037114209C7752EEA558C76 /* SwiftSoup-dummy.m */; };
 		BA97148CF25F643424303390426F5DC7 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F025418560508538B5BCF87A3A90B7F /* String.swift */; };
@@ -77,7 +78,6 @@
 		C2CEA13EDA7C6FEFF6D9C0FB492EB053 /* Validate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1336BCA4E033A7FA216961ABD452C6 /* Validate.swift */; };
 		C3FFEB352D420DF4C7DAD6E27136FB1E /* CombiningEvaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45459A9FA876D90E150883FC796D4E8E /* CombiningEvaluator.swift */; };
 		C465B7B8807851C4A56AF0FF421EE9A2 /* QueryParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521B58AE8BDE34DDB24617FEFDE4FA9E /* QueryParser.swift */; };
-		C7BD35ECCE0EB97B870E5585E99B17C9 /* ChartParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7E34E5D6729FD5A3E001B709A93EBB /* ChartParser.swift */; };
 		C848C5CA476A61744B9D62FE87A7DB00 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674B01A383CB1F7C6D0C1E99A9A2F598 /* Node.swift */; };
 		C93E7E563674EC5BFD0D567B2946CECE /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812B888BB8F2D788DB7C3E7CB7B17C42 /* Token.swift */; };
 		CC8E905520734CDEC4A63B643623213E /* FTIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C0216D728A122ED8142151C4A22676B /* FTIndicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -139,7 +139,6 @@
 		0050B5EC2AD7C1C3C7D3D2509F3BC73B /* FTProgressIndicator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FTProgressIndicator.h; path = FTIndicator/FTProgressIndicator/FTProgressIndicator.h; sourceTree = "<group>"; };
 		015DFF5A95D15EAF3B4D09666822754A /* Comment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Comment.swift; path = Sources/Comment.swift; sourceTree = "<group>"; };
 		033DA1F37A541259D6BA9DAE8B2CD4C7 /* TokeniserState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TokeniserState.swift; path = Sources/TokeniserState.swift; sourceTree = "<group>"; };
-		036BF218BEAEC4C3EA3BEBAF11949B56 /* ChartRequests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartRequests.swift; path = BillboardSwiftLibrary/Classes/ChartRequests.swift; sourceTree = "<group>"; };
 		039C69A0A2EB943E624CB54EF92DEFFC /* Pods-BillboardSwiftLibrary_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BillboardSwiftLibrary_Tests-resources.sh"; sourceTree = "<group>"; };
 		05AAAEBBDE24279D70256E9E19232517 /* Parser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Parser.swift; path = Sources/Parser.swift; sourceTree = "<group>"; };
 		06899B55AA19C0D00F8234293C648F7E /* BooleanAttribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BooleanAttribute.swift; path = Sources/BooleanAttribute.swift; sourceTree = "<group>"; };
@@ -151,7 +150,6 @@
 		105DED643C170400E8509510A0D3A6BF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		11130831BA42EE5D90AD0F56C34B5E2C /* FTProgressIndicator.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = FTProgressIndicator.bundle; path = FTIndicator/FTProgressIndicator/FTProgressIndicator.bundle; sourceTree = "<group>"; };
 		12E2AE7BEE0FDE5234E72D50E334E902 /* FormElement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormElement.swift; path = Sources/FormElement.swift; sourceTree = "<group>"; };
-		133B978523E325B3EE2B549CEDFF3D7D /* ChartGateway.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartGateway.swift; path = BillboardSwiftLibrary/Classes/ChartGateway.swift; sourceTree = "<group>"; };
 		153CEC46CCB1EBBF58C109FBA6DC7688 /* Connection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Connection.swift; path = Sources/Connection.swift; sourceTree = "<group>"; };
 		194D30280D7D8EB8AED38B5CDCED8D58 /* NodeTraversor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NodeTraversor.swift; path = Sources/NodeTraversor.swift; sourceTree = "<group>"; };
 		1FF2D405A195F294DEA044F07A9B4398 /* BillboardSwiftLibrary.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BillboardSwiftLibrary.xcconfig; sourceTree = "<group>"; };
@@ -159,7 +157,6 @@
 		22E3373203406556D6EB12D95CB163EE /* SwiftSoup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSoup.swift; path = Sources/SwiftSoup.swift; sourceTree = "<group>"; };
 		25232DEF163F43D2F1E2CE94B1E6AAF3 /* FTIndicator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FTIndicator-dummy.m"; sourceTree = "<group>"; };
 		25AB2CBC759E0A8CC1533BE0DDB40EFD /* SwiftSoup-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSoup-prefix.pch"; sourceTree = "<group>"; };
-		25E8037633AC31B72D08E04216CD27DD /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = BillboardSwiftLibrary/Classes/Result.swift; sourceTree = "<group>"; };
 		2750D99CC8E2826B5C00516F76FAC29E /* FTProgressIndicator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FTProgressIndicator.m; path = FTIndicator/FTProgressIndicator/FTProgressIndicator.m; sourceTree = "<group>"; };
 		2A298A354E69976B0B329CC856705057 /* Pods-BillboardSwiftLibrary_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BillboardSwiftLibrary_Example.modulemap"; sourceTree = "<group>"; };
 		2A45D6CD4715F41FFCF5137224818EFF /* Pattern.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Pattern.swift; path = Sources/Pattern.swift; sourceTree = "<group>"; };
@@ -203,7 +200,13 @@
 		832234A6E3AC81D0DB6579BEE3EF7E31 /* Pods-BillboardSwiftLibrary_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BillboardSwiftLibrary_Tests-dummy.m"; sourceTree = "<group>"; };
 		840D001921A10D9400C60F9B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84516269802C78B724F72BAD66C0254E /* XmlDeclaration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XmlDeclaration.swift; path = Sources/XmlDeclaration.swift; sourceTree = "<group>"; };
-		84A3878F21A094A90079C622 /* ChartEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ChartEnums.swift; path = BillboardSwiftLibrary/Classes/ChartEnums.swift; sourceTree = "<group>"; };
+		84FEBD8F21A2F1A40090D4BD /* ChartEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChartEntry.swift; path = Sources/ChartEntry.swift; sourceTree = "<group>"; };
+		84FEBD9021A2F1A40090D4BD /* ChartGateway.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChartGateway.swift; path = Sources/ChartGateway.swift; sourceTree = "<group>"; };
+		84FEBD9121A2F1A40090D4BD /* ChartParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChartParser.swift; path = Sources/ChartParser.swift; sourceTree = "<group>"; };
+		84FEBD9221A2F1A40090D4BD /* BillboardManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BillboardManager.swift; path = Sources/BillboardManager.swift; sourceTree = "<group>"; };
+		84FEBD9321A2F1A40090D4BD /* ChartRequests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChartRequests.swift; path = Sources/ChartRequests.swift; sourceTree = "<group>"; };
+		84FEBD9421A2F1A40090D4BD /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Sources/Result.swift; sourceTree = "<group>"; };
+		84FEBD9521A2F1A40090D4BD /* ChartEnums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChartEnums.swift; path = Sources/ChartEnums.swift; sourceTree = "<group>"; };
 		85E6D7A951EB6FCB5859675C7379E902 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		87CACAEFCE668D890A5350CD0A09455D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A1F325B672FA8D8142FC144A887D98B /* Pods-BillboardSwiftLibrary_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BillboardSwiftLibrary_Tests-frameworks.sh"; sourceTree = "<group>"; };
@@ -213,14 +216,12 @@
 		94727502805CE048F99B77F567383446 /* Pods_BillboardSwiftLibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BillboardSwiftLibrary_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A0EC2E194A1ACB6676C123806E66172 /* ParseErrorList.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParseErrorList.swift; path = Sources/ParseErrorList.swift; sourceTree = "<group>"; };
 		9C7230BBE65D8C72852A4B7DC9A830C3 /* Tag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Tag.swift; path = Sources/Tag.swift; sourceTree = "<group>"; };
-		9D7E34E5D6729FD5A3E001B709A93EBB /* ChartParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartParser.swift; path = BillboardSwiftLibrary/Classes/ChartParser.swift; sourceTree = "<group>"; };
 		9EE2BAFE291FE03997F65D77EB892427 /* CharacterExt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacterExt.swift; path = Sources/CharacterExt.swift; sourceTree = "<group>"; };
 		9F1336BCA4E033A7FA216961ABD452C6 /* Validate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validate.swift; path = Sources/Validate.swift; sourceTree = "<group>"; };
 		9F9798D77B32EF3F5E57EB8AF87CFE56 /* SerializationException.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SerializationException.swift; path = Sources/SerializationException.swift; sourceTree = "<group>"; };
 		A44DE85DF1291B7196E335A397D45F02 /* FTIndicator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FTIndicator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6D179484A4DCBF23AB9AEA029C708CD /* Cleaner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cleaner.swift; path = Sources/Cleaner.swift; sourceTree = "<group>"; };
 		A7EC62D76A1FFD762A48E5622ED5ACF2 /* FTIndicator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FTIndicator-umbrella.h"; sourceTree = "<group>"; };
-		ACA241431704BB10E56F04479D33FED2 /* ChartEntry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartEntry.swift; path = BillboardSwiftLibrary/Classes/ChartEntry.swift; sourceTree = "<group>"; };
 		AD843E961D4ADBB1B4C60D450CB47748 /* StructuralEvaluator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StructuralEvaluator.swift; path = Sources/StructuralEvaluator.swift; sourceTree = "<group>"; };
 		AEFFCF778F6048B8582C7D003DF2BE17 /* SwiftSoup.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftSoup.xcconfig; sourceTree = "<group>"; };
 		B17D055FEFC818B77F85F72DFEE7F0B9 /* SwiftSoup.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftSoup.modulemap; sourceTree = "<group>"; };
@@ -229,7 +230,6 @@
 		BB471DA886EE695CDCADEB5308BFD829 /* TextNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextNode.swift; path = Sources/TextNode.swift; sourceTree = "<group>"; };
 		BD8302729B754F140F28804B6DF0D433 /* FTIndicator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FTIndicator.xcconfig; sourceTree = "<group>"; };
 		BD8BD18E24D1B74D36179506E316BDD5 /* NodeVisitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NodeVisitor.swift; path = Sources/NodeVisitor.swift; sourceTree = "<group>"; };
-		C89CF053FA1BB5DDE1D735E2B195E1B9 /* BillboardManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BillboardManager.swift; path = BillboardSwiftLibrary/Classes/BillboardManager.swift; sourceTree = "<group>"; };
 		CBB341E6D7D0E440676663B9D2CA5342 /* ParseError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParseError.swift; path = Sources/ParseError.swift; sourceTree = "<group>"; };
 		CCA7A49D1D3F6397DD98C019D3E3F78C /* OrderedDictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OrderedDictionary.swift; path = Sources/OrderedDictionary.swift; sourceTree = "<group>"; };
 		CE4283C23676E09B6BB63A9A27A31920 /* HtmlTreeBuilderState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HtmlTreeBuilderState.swift; path = Sources/HtmlTreeBuilderState.swift; sourceTree = "<group>"; };
@@ -388,13 +388,13 @@
 		78F4368ED37C460A43146B872737C1B9 /* BillboardSwiftLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				C89CF053FA1BB5DDE1D735E2B195E1B9 /* BillboardManager.swift */,
-				ACA241431704BB10E56F04479D33FED2 /* ChartEntry.swift */,
-				84A3878F21A094A90079C622 /* ChartEnums.swift */,
-				133B978523E325B3EE2B549CEDFF3D7D /* ChartGateway.swift */,
-				9D7E34E5D6729FD5A3E001B709A93EBB /* ChartParser.swift */,
-				036BF218BEAEC4C3EA3BEBAF11949B56 /* ChartRequests.swift */,
-				25E8037633AC31B72D08E04216CD27DD /* Result.swift */,
+				84FEBD9221A2F1A40090D4BD /* BillboardManager.swift */,
+				84FEBD8F21A2F1A40090D4BD /* ChartEntry.swift */,
+				84FEBD9521A2F1A40090D4BD /* ChartEnums.swift */,
+				84FEBD9021A2F1A40090D4BD /* ChartGateway.swift */,
+				84FEBD9121A2F1A40090D4BD /* ChartParser.swift */,
+				84FEBD9321A2F1A40090D4BD /* ChartRequests.swift */,
+				84FEBD9421A2F1A40090D4BD /* Result.swift */,
 				97DA7D70E26CC70D726E800717947730 /* Pod */,
 				9DA3923F462EC171B961B556A338B707 /* Support Files */,
 			);
@@ -746,6 +746,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					A5F4AB8B72316225A56CE09A06506FA6 = {
+						LastSwiftMigration = 1010;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -856,14 +861,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				524D449FB0B7EF57136E67A306AE5D9A /* BillboardManager.swift in Sources */,
+				84FEBD9721A2F1A40090D4BD /* ChartGateway.swift in Sources */,
 				4ED1F4D4438F2E17755244E4C25053C7 /* BillboardSwiftLibrary-dummy.m in Sources */,
-				498C6B097B415817EF9E2CDDA0C85609 /* ChartEntry.swift in Sources */,
-				45BBD6C2663F4FF94C9C1415CB787036 /* ChartGateway.swift in Sources */,
-				C7BD35ECCE0EB97B870E5585E99B17C9 /* ChartParser.swift in Sources */,
-				84A3879021A094A90079C622 /* ChartEnums.swift in Sources */,
-				B8B1943943637950F89212BFF256290D /* ChartRequests.swift in Sources */,
-				9718FEC1DBFC7C0308326D23E8598BE0 /* Result.swift in Sources */,
+				84FEBD9A21A2F1A40090D4BD /* ChartRequests.swift in Sources */,
+				84FEBD9621A2F1A40090D4BD /* ChartEntry.swift in Sources */,
+				84FEBD9B21A2F1A40090D4BD /* Result.swift in Sources */,
+				84FEBD9C21A2F1A40090D4BD /* ChartEnums.swift in Sources */,
+				84FEBD9921A2F1A40090D4BD /* BillboardManager.swift in Sources */,
+				84FEBD9821A2F1A40090D4BD /* ChartParser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -960,6 +965,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1FF2D405A195F294DEA044F07A9B4398 /* BillboardSwiftLibrary.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1093,6 +1099,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1FF2D405A195F294DEA044F07A9B4398 /* BillboardSwiftLibrary.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";

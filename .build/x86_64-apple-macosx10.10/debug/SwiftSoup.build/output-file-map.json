@@ -1,0 +1,341 @@
+{
+  "": {
+    "swift-dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/master.swiftdeps"
+  },
+  "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/checkouts/SwiftSoup.git--6189124386753900492/Sources/ArrayExt.swift": {
+    "dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/ArrayExt.d",
+    "object": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/ArrayExt.swift.o",
+    "swiftmodule": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/ArrayExt~partial.swiftmodule",
+    "swift-dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/ArrayExt.swiftdeps"
+  },
+  "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/checkouts/SwiftSoup.git--6189124386753900492/Sources/Attribute.swift": {
+    "dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Attribute.d",
+    "object": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Attribute.swift.o",
+    "swiftmodule": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Attribute~partial.swiftmodule",
+    "swift-dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Attribute.swiftdeps"
+  },
+  "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/checkouts/SwiftSoup.git--6189124386753900492/Sources/Attributes.swift": {
+    "dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Attributes.d",
+    "object": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Attributes.swift.o",
+    "swiftmodule": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Attributes~partial.swiftmodule",
+    "swift-dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Attributes.swiftdeps"
+  },
+  "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/checkouts/SwiftSoup.git--6189124386753900492/Sources/BooleanAttribute.swift": {
+    "dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/BooleanAttribute.d",
+    "object": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/BooleanAttribute.swift.o",
+    "swiftmodule": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/BooleanAttribute~partial.swiftmodule",
+    "swift-dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/BooleanAttribute.swiftdeps"
+  },
+  "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/checkouts/SwiftSoup.git--6189124386753900492/Sources/CharacterExt.swift": {
+    "dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/CharacterExt.d",
+    "object": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/CharacterExt.swift.o",
+    "swiftmodule": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/CharacterExt~partial.swiftmodule",
+    "swift-dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/CharacterExt.swiftdeps"
+  },
+  "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/checkouts/SwiftSoup.git--6189124386753900492/Sources/CharacterReader.swift": {
+    "dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/CharacterReader.d",
+    "object": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/CharacterReader.swift.o",
+    "swiftmodule": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/CharacterReader~partial.swiftmodule",
+    "swift-dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/CharacterReader.swiftdeps"
+  },
+  "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/checkouts/SwiftSoup.git--6189124386753900492/Sources/Cleaner.swift": {
+    "dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Cleaner.d",
+    "object": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Cleaner.swift.o",
+    "swiftmodule": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Cleaner~partial.swiftmodule",
+    "swift-dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Cleaner.swiftdeps"
+  },
+  "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/checkouts/SwiftSoup.git--6189124386753900492/Sources/Collector.swift": {
+    "dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Collector.d",
+    "object": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Collector.swift.o",
+    "swiftmodule": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Collector~partial.swiftmodule",
+    "swift-dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Collector.swiftdeps"
+  },
+  "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/checkouts/SwiftSoup.git--6189124386753900492/Sources/CombiningEvaluator.swift": {
+    "dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/CombiningEvaluator.d",
+    "object": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/CombiningEvaluator.swift.o",
+    "swiftmodule": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/CombiningEvaluator~partial.swiftmodule",
+    "swift-dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/CombiningEvaluator.swiftdeps"
+  },
+  "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/checkouts/SwiftSoup.git--6189124386753900492/Sources/Comment.swift": {
+    "dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Comment.d",
+    "object": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Comment.swift.o",
+    "swiftmodule": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Comment~partial.swiftmodule",
+    "swift-dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Comment.swiftdeps"
+  },
+  "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/checkouts/SwiftSoup.git--6189124386753900492/Sources/Connection.swift": {
+    "dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Connection.d",
+    "object": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Connection.swift.o",
+    "swiftmodule": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Connection~partial.swiftmodule",
+    "swift-dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Connection.swiftdeps"
+  },
+  "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/checkouts/SwiftSoup.git--6189124386753900492/Sources/DataNode.swift": {
+    "dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/DataNode.d",
+    "object": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/DataNode.swift.o",
+    "swiftmodule": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/DataNode~partial.swiftmodule",
+    "swift-dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/DataNode.swiftdeps"
+  },
+  "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/checkouts/SwiftSoup.git--6189124386753900492/Sources/DataUtil.swift": {
+    "dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/DataUtil.d",
+    "object": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/DataUtil.swift.o",
+    "swiftmodule": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/DataUtil~partial.swiftmodule",
+    "swift-dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/DataUtil.swiftdeps"
+  },
+  "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/checkouts/SwiftSoup.git--6189124386753900492/Sources/Document.swift": {
+    "dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Document.d",
+    "object": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Document.swift.o",
+    "swiftmodule": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Document~partial.swiftmodule",
+    "swift-dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Document.swiftdeps"
+  },
+  "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/checkouts/SwiftSoup.git--6189124386753900492/Sources/DocumentType.swift": {
+    "dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/DocumentType.d",
+    "object": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/DocumentType.swift.o",
+    "swiftmodule": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/DocumentType~partial.swiftmodule",
+    "swift-dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/DocumentType.swiftdeps"
+  },
+  "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/checkouts/SwiftSoup.git--6189124386753900492/Sources/Element.swift": {
+    "dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Element.d",
+    "object": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Element.swift.o",
+    "swiftmodule": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Element~partial.swiftmodule",
+    "swift-dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Element.swiftdeps"
+  },
+  "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/checkouts/SwiftSoup.git--6189124386753900492/Sources/Elements.swift": {
+    "dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Elements.d",
+    "object": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Elements.swift.o",
+    "swiftmodule": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Elements~partial.swiftmodule",
+    "swift-dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Elements.swiftdeps"
+  },
+  "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/checkouts/SwiftSoup.git--6189124386753900492/Sources/Entities.swift": {
+    "dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Entities.d",
+    "object": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Entities.swift.o",
+    "swiftmodule": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Entities~partial.swiftmodule",
+    "swift-dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Entities.swiftdeps"
+  },
+  "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/checkouts/SwiftSoup.git--6189124386753900492/Sources/Evaluator.swift": {
+    "dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Evaluator.d",
+    "object": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Evaluator.swift.o",
+    "swiftmodule": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Evaluator~partial.swiftmodule",
+    "swift-dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Evaluator.swiftdeps"
+  },
+  "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/checkouts/SwiftSoup.git--6189124386753900492/Sources/Exception.swift": {
+    "dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Exception.d",
+    "object": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Exception.swift.o",
+    "swiftmodule": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Exception~partial.swiftmodule",
+    "swift-dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Exception.swiftdeps"
+  },
+  "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/checkouts/SwiftSoup.git--6189124386753900492/Sources/FormElement.swift": {
+    "dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/FormElement.d",
+    "object": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/FormElement.swift.o",
+    "swiftmodule": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/FormElement~partial.swiftmodule",
+    "swift-dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/FormElement.swiftdeps"
+  },
+  "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/checkouts/SwiftSoup.git--6189124386753900492/Sources/HtmlTreeBuilder.swift": {
+    "dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/HtmlTreeBuilder.d",
+    "object": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/HtmlTreeBuilder.swift.o",
+    "swiftmodule": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/HtmlTreeBuilder~partial.swiftmodule",
+    "swift-dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/HtmlTreeBuilder.swiftdeps"
+  },
+  "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/checkouts/SwiftSoup.git--6189124386753900492/Sources/HtmlTreeBuilderState.swift": {
+    "dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/HtmlTreeBuilderState.d",
+    "object": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/HtmlTreeBuilderState.swift.o",
+    "swiftmodule": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/HtmlTreeBuilderState~partial.swiftmodule",
+    "swift-dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/HtmlTreeBuilderState.swiftdeps"
+  },
+  "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/checkouts/SwiftSoup.git--6189124386753900492/Sources/HttpStatusException.swift": {
+    "dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/HttpStatusException.d",
+    "object": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/HttpStatusException.swift.o",
+    "swiftmodule": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/HttpStatusException~partial.swiftmodule",
+    "swift-dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/HttpStatusException.swiftdeps"
+  },
+  "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/checkouts/SwiftSoup.git--6189124386753900492/Sources/Node.swift": {
+    "dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Node.d",
+    "object": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Node.swift.o",
+    "swiftmodule": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Node~partial.swiftmodule",
+    "swift-dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Node.swiftdeps"
+  },
+  "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/checkouts/SwiftSoup.git--6189124386753900492/Sources/NodeTraversor.swift": {
+    "dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/NodeTraversor.d",
+    "object": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/NodeTraversor.swift.o",
+    "swiftmodule": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/NodeTraversor~partial.swiftmodule",
+    "swift-dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/NodeTraversor.swiftdeps"
+  },
+  "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/checkouts/SwiftSoup.git--6189124386753900492/Sources/NodeVisitor.swift": {
+    "dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/NodeVisitor.d",
+    "object": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/NodeVisitor.swift.o",
+    "swiftmodule": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/NodeVisitor~partial.swiftmodule",
+    "swift-dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/NodeVisitor.swiftdeps"
+  },
+  "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/checkouts/SwiftSoup.git--6189124386753900492/Sources/OrderedDictionary.swift": {
+    "dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/OrderedDictionary.d",
+    "object": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/OrderedDictionary.swift.o",
+    "swiftmodule": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/OrderedDictionary~partial.swiftmodule",
+    "swift-dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/OrderedDictionary.swiftdeps"
+  },
+  "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/checkouts/SwiftSoup.git--6189124386753900492/Sources/OrderedSet.swift": {
+    "dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/OrderedSet.d",
+    "object": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/OrderedSet.swift.o",
+    "swiftmodule": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/OrderedSet~partial.swiftmodule",
+    "swift-dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/OrderedSet.swiftdeps"
+  },
+  "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/checkouts/SwiftSoup.git--6189124386753900492/Sources/ParseError.swift": {
+    "dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/ParseError.d",
+    "object": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/ParseError.swift.o",
+    "swiftmodule": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/ParseError~partial.swiftmodule",
+    "swift-dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/ParseError.swiftdeps"
+  },
+  "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/checkouts/SwiftSoup.git--6189124386753900492/Sources/ParseErrorList.swift": {
+    "dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/ParseErrorList.d",
+    "object": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/ParseErrorList.swift.o",
+    "swiftmodule": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/ParseErrorList~partial.swiftmodule",
+    "swift-dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/ParseErrorList.swiftdeps"
+  },
+  "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/checkouts/SwiftSoup.git--6189124386753900492/Sources/ParseSettings.swift": {
+    "dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/ParseSettings.d",
+    "object": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/ParseSettings.swift.o",
+    "swiftmodule": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/ParseSettings~partial.swiftmodule",
+    "swift-dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/ParseSettings.swiftdeps"
+  },
+  "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/checkouts/SwiftSoup.git--6189124386753900492/Sources/Parser.swift": {
+    "dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Parser.d",
+    "object": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Parser.swift.o",
+    "swiftmodule": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Parser~partial.swiftmodule",
+    "swift-dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Parser.swiftdeps"
+  },
+  "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/checkouts/SwiftSoup.git--6189124386753900492/Sources/Pattern.swift": {
+    "dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Pattern.d",
+    "object": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Pattern.swift.o",
+    "swiftmodule": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Pattern~partial.swiftmodule",
+    "swift-dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Pattern.swiftdeps"
+  },
+  "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/checkouts/SwiftSoup.git--6189124386753900492/Sources/QueryParser.swift": {
+    "dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/QueryParser.d",
+    "object": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/QueryParser.swift.o",
+    "swiftmodule": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/QueryParser~partial.swiftmodule",
+    "swift-dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/QueryParser.swiftdeps"
+  },
+  "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/checkouts/SwiftSoup.git--6189124386753900492/Sources/Selector.swift": {
+    "dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Selector.d",
+    "object": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Selector.swift.o",
+    "swiftmodule": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Selector~partial.swiftmodule",
+    "swift-dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Selector.swiftdeps"
+  },
+  "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/checkouts/SwiftSoup.git--6189124386753900492/Sources/SerializationException.swift": {
+    "dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/SerializationException.d",
+    "object": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/SerializationException.swift.o",
+    "swiftmodule": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/SerializationException~partial.swiftmodule",
+    "swift-dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/SerializationException.swiftdeps"
+  },
+  "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/checkouts/SwiftSoup.git--6189124386753900492/Sources/SimpleDictionary.swift": {
+    "dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/SimpleDictionary.d",
+    "object": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/SimpleDictionary.swift.o",
+    "swiftmodule": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/SimpleDictionary~partial.swiftmodule",
+    "swift-dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/SimpleDictionary.swiftdeps"
+  },
+  "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/checkouts/SwiftSoup.git--6189124386753900492/Sources/StreamReader.swift": {
+    "dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/StreamReader.d",
+    "object": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/StreamReader.swift.o",
+    "swiftmodule": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/StreamReader~partial.swiftmodule",
+    "swift-dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/StreamReader.swiftdeps"
+  },
+  "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/checkouts/SwiftSoup.git--6189124386753900492/Sources/String.swift": {
+    "dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/String.d",
+    "object": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/String.swift.o",
+    "swiftmodule": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/String~partial.swiftmodule",
+    "swift-dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/String.swiftdeps"
+  },
+  "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/checkouts/SwiftSoup.git--6189124386753900492/Sources/StringBuilder.swift": {
+    "dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/StringBuilder.d",
+    "object": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/StringBuilder.swift.o",
+    "swiftmodule": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/StringBuilder~partial.swiftmodule",
+    "swift-dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/StringBuilder.swiftdeps"
+  },
+  "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/checkouts/SwiftSoup.git--6189124386753900492/Sources/StringUtil.swift": {
+    "dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/StringUtil.d",
+    "object": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/StringUtil.swift.o",
+    "swiftmodule": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/StringUtil~partial.swiftmodule",
+    "swift-dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/StringUtil.swiftdeps"
+  },
+  "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/checkouts/SwiftSoup.git--6189124386753900492/Sources/StructuralEvaluator.swift": {
+    "dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/StructuralEvaluator.d",
+    "object": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/StructuralEvaluator.swift.o",
+    "swiftmodule": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/StructuralEvaluator~partial.swiftmodule",
+    "swift-dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/StructuralEvaluator.swiftdeps"
+  },
+  "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/checkouts/SwiftSoup.git--6189124386753900492/Sources/SwiftSoup.swift": {
+    "dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/SwiftSoup.d",
+    "object": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/SwiftSoup.swift.o",
+    "swiftmodule": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/SwiftSoup~partial.swiftmodule",
+    "swift-dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/SwiftSoup.swiftdeps"
+  },
+  "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/checkouts/SwiftSoup.git--6189124386753900492/Sources/Tag.swift": {
+    "dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Tag.d",
+    "object": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Tag.swift.o",
+    "swiftmodule": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Tag~partial.swiftmodule",
+    "swift-dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Tag.swiftdeps"
+  },
+  "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/checkouts/SwiftSoup.git--6189124386753900492/Sources/TextNode.swift": {
+    "dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/TextNode.d",
+    "object": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/TextNode.swift.o",
+    "swiftmodule": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/TextNode~partial.swiftmodule",
+    "swift-dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/TextNode.swiftdeps"
+  },
+  "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/checkouts/SwiftSoup.git--6189124386753900492/Sources/Token.swift": {
+    "dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Token.d",
+    "object": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Token.swift.o",
+    "swiftmodule": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Token~partial.swiftmodule",
+    "swift-dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Token.swiftdeps"
+  },
+  "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/checkouts/SwiftSoup.git--6189124386753900492/Sources/TokenQueue.swift": {
+    "dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/TokenQueue.d",
+    "object": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/TokenQueue.swift.o",
+    "swiftmodule": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/TokenQueue~partial.swiftmodule",
+    "swift-dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/TokenQueue.swiftdeps"
+  },
+  "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/checkouts/SwiftSoup.git--6189124386753900492/Sources/Tokeniser.swift": {
+    "dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Tokeniser.d",
+    "object": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Tokeniser.swift.o",
+    "swiftmodule": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Tokeniser~partial.swiftmodule",
+    "swift-dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Tokeniser.swiftdeps"
+  },
+  "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/checkouts/SwiftSoup.git--6189124386753900492/Sources/TokeniserState.swift": {
+    "dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/TokeniserState.d",
+    "object": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/TokeniserState.swift.o",
+    "swiftmodule": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/TokeniserState~partial.swiftmodule",
+    "swift-dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/TokeniserState.swiftdeps"
+  },
+  "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/checkouts/SwiftSoup.git--6189124386753900492/Sources/TreeBuilder.swift": {
+    "dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/TreeBuilder.d",
+    "object": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/TreeBuilder.swift.o",
+    "swiftmodule": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/TreeBuilder~partial.swiftmodule",
+    "swift-dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/TreeBuilder.swiftdeps"
+  },
+  "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/checkouts/SwiftSoup.git--6189124386753900492/Sources/UnicodeScalar.swift": {
+    "dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/UnicodeScalar.d",
+    "object": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/UnicodeScalar.swift.o",
+    "swiftmodule": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/UnicodeScalar~partial.swiftmodule",
+    "swift-dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/UnicodeScalar.swiftdeps"
+  },
+  "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/checkouts/SwiftSoup.git--6189124386753900492/Sources/Validate.swift": {
+    "dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Validate.d",
+    "object": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Validate.swift.o",
+    "swiftmodule": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Validate~partial.swiftmodule",
+    "swift-dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Validate.swiftdeps"
+  },
+  "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/checkouts/SwiftSoup.git--6189124386753900492/Sources/Whitelist.swift": {
+    "dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Whitelist.d",
+    "object": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Whitelist.swift.o",
+    "swiftmodule": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Whitelist~partial.swiftmodule",
+    "swift-dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/Whitelist.swiftdeps"
+  },
+  "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/checkouts/SwiftSoup.git--6189124386753900492/Sources/XmlDeclaration.swift": {
+    "dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/XmlDeclaration.d",
+    "object": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/XmlDeclaration.swift.o",
+    "swiftmodule": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/XmlDeclaration~partial.swiftmodule",
+    "swift-dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/XmlDeclaration.swiftdeps"
+  },
+  "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/checkouts/SwiftSoup.git--6189124386753900492/Sources/XmlTreeBuilder.swift": {
+    "dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/XmlTreeBuilder.d",
+    "object": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/XmlTreeBuilder.swift.o",
+    "swiftmodule": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/XmlTreeBuilder~partial.swiftmodule",
+    "swift-dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.build/XmlTreeBuilder.swiftdeps"
+  }
+}

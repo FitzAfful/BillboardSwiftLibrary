@@ -1,0 +1,47 @@
+{
+  "": {
+    "swift-dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/BillboardSwiftLibrary.build/master.swiftdeps"
+  },
+  "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/Sources/BillboardManager.swift": {
+    "dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/BillboardSwiftLibrary.build/BillboardManager.d",
+    "object": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/BillboardSwiftLibrary.build/BillboardManager.swift.o",
+    "swiftmodule": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/BillboardSwiftLibrary.build/BillboardManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/BillboardSwiftLibrary.build/BillboardManager.swiftdeps"
+  },
+  "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/Sources/ChartEntry.swift": {
+    "dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/BillboardSwiftLibrary.build/ChartEntry.d",
+    "object": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/BillboardSwiftLibrary.build/ChartEntry.swift.o",
+    "swiftmodule": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/BillboardSwiftLibrary.build/ChartEntry~partial.swiftmodule",
+    "swift-dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/BillboardSwiftLibrary.build/ChartEntry.swiftdeps"
+  },
+  "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/Sources/ChartEnums.swift": {
+    "dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/BillboardSwiftLibrary.build/ChartEnums.d",
+    "object": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/BillboardSwiftLibrary.build/ChartEnums.swift.o",
+    "swiftmodule": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/BillboardSwiftLibrary.build/ChartEnums~partial.swiftmodule",
+    "swift-dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/BillboardSwiftLibrary.build/ChartEnums.swiftdeps"
+  },
+  "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/Sources/ChartGateway.swift": {
+    "dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/BillboardSwiftLibrary.build/ChartGateway.d",
+    "object": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/BillboardSwiftLibrary.build/ChartGateway.swift.o",
+    "swiftmodule": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/BillboardSwiftLibrary.build/ChartGateway~partial.swiftmodule",
+    "swift-dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/BillboardSwiftLibrary.build/ChartGateway.swiftdeps"
+  },
+  "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/Sources/ChartParser.swift": {
+    "dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/BillboardSwiftLibrary.build/ChartParser.d",
+    "object": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/BillboardSwiftLibrary.build/ChartParser.swift.o",
+    "swiftmodule": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/BillboardSwiftLibrary.build/ChartParser~partial.swiftmodule",
+    "swift-dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/BillboardSwiftLibrary.build/ChartParser.swiftdeps"
+  },
+  "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/Sources/ChartRequests.swift": {
+    "dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/BillboardSwiftLibrary.build/ChartRequests.d",
+    "object": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/BillboardSwiftLibrary.build/ChartRequests.swift.o",
+    "swiftmodule": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/BillboardSwiftLibrary.build/ChartRequests~partial.swiftmodule",
+    "swift-dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/BillboardSwiftLibrary.build/ChartRequests.swiftdeps"
+  },
+  "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/Sources/Result.swift": {
+    "dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/BillboardSwiftLibrary.build/Result.d",
+    "object": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/BillboardSwiftLibrary.build/Result.swift.o",
+    "swiftmodule": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/BillboardSwiftLibrary.build/Result~partial.swiftmodule",
+    "swift-dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/BillboardSwiftLibrary.build/Result.swiftdeps"
+  }
+}

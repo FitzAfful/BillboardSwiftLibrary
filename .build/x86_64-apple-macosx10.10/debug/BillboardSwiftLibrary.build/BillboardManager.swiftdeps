@@ -1,0 +1,421 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "GetChartCompletionHandler"
+- "GetChartResultCompletionHandler"
+- "BillboardManagerProtocol"
+- "BillboardManager"
+provides-nominal:
+- "21BillboardSwiftLibrary0A15ManagerProtocolP"
+- "21BillboardSwiftLibrary0A7ManagerC"
+provides-member:
+- ["21BillboardSwiftLibrary0A15ManagerProtocolP", ""]
+- ["21BillboardSwiftLibrary0A7ManagerC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "%"
+- !private "&&"
+- !private "=="
+- !private ">"
+- "ApiClient"
+- !private "ApiClientImplementation"
+- !private "Array"
+- "AssignmentPrecedence"
+- "BillboardManager"
+- "BillboardManagerProtocol"
+- "Bool"
+- !private "BooleanLiteralType"
+- !private "Calendar"
+- "ChartEntry"
+- "ChartGateway"
+- !private "ChartParameter"
+- "ChartType"
+- !private "Date"
+- !private "DateComponents"
+- !private "DateFormatter"
+- "Error"
+- !private "FloatLiteralType"
+- "GetChartCompletionHandler"
+- "GetChartResultCompletionHandler"
+- "Int"
+- !private "IntegerLiteralType"
+- !private "NSError"
+- !private "OperationQueue"
+- "Result"
+- "String"
+- !private "StringLiteralType"
+- !private "URLSessionConfiguration"
+- !private "UnicodeScalarType"
+- "Void"
+- !private "||"
+depends-member:
+- !private ["21BillboardSwiftLibrary9ApiClientP", "init"]
+- !private ["21BillboardSwiftLibrary23ApiClientImplementationC", "deinit"]
+- !private ["21BillboardSwiftLibrary23ApiClientImplementationC", "init"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- ["21BillboardSwiftLibrary0A7ManagerC", "ApiClient"]
+- !private ["21BillboardSwiftLibrary0A7ManagerC", "ApiClientImplementation"]
+- ["21BillboardSwiftLibrary0A7ManagerC", "Bool"]
+- !private ["21BillboardSwiftLibrary0A7ManagerC", "Calendar"]
+- ["21BillboardSwiftLibrary0A7ManagerC", "ChartGateway"]
+- !private ["21BillboardSwiftLibrary0A7ManagerC", "ChartParameter"]
+- ["21BillboardSwiftLibrary0A7ManagerC", "ChartType"]
+- !private ["21BillboardSwiftLibrary0A7ManagerC", "Date"]
+- !private ["21BillboardSwiftLibrary0A7ManagerC", "DateComponents"]
+- !private ["21BillboardSwiftLibrary0A7ManagerC", "DateFormatter"]
+- ["21BillboardSwiftLibrary0A7ManagerC", "GetChartCompletionHandler"]
+- ["21BillboardSwiftLibrary0A7ManagerC", "Int"]
+- !private ["21BillboardSwiftLibrary0A7ManagerC", "NSError"]
+- !private ["21BillboardSwiftLibrary0A7ManagerC", "OperationQueue"]
+- ["21BillboardSwiftLibrary0A7ManagerC", "String"]
+- !private ["21BillboardSwiftLibrary0A7ManagerC", "URLSessionConfiguration"]
+- !private ["21BillboardSwiftLibrary0A7ManagerC", "apiClient"]
+- ["21BillboardSwiftLibrary0A7ManagerC", "deinit"]
+- !private ["21BillboardSwiftLibrary0A7ManagerC", "gateway"]
+- ["21BillboardSwiftLibrary0A7ManagerC", "getChart"]
+- ["21BillboardSwiftLibrary0A7ManagerC", "init"]
+- ["21BillboardSwiftLibrary0A7ManagerC", "validateDate"]
+- !private ["21BillboardSwiftLibrary0A15ManagerProtocolP", "ApiClientImplementation"]
+- ["21BillboardSwiftLibrary0A15ManagerProtocolP", "Bool"]
+- !private ["21BillboardSwiftLibrary0A15ManagerProtocolP", "Calendar"]
+- !private ["21BillboardSwiftLibrary0A15ManagerProtocolP", "ChartGateway"]
+- !private ["21BillboardSwiftLibrary0A15ManagerProtocolP", "ChartParameter"]
+- ["21BillboardSwiftLibrary0A15ManagerProtocolP", "ChartType"]
+- !private ["21BillboardSwiftLibrary0A15ManagerProtocolP", "Date"]
+- !private ["21BillboardSwiftLibrary0A15ManagerProtocolP", "DateFormatter"]
+- ["21BillboardSwiftLibrary0A15ManagerProtocolP", "GetChartCompletionHandler"]
+- ["21BillboardSwiftLibrary0A15ManagerProtocolP", "Int"]
+- !private ["21BillboardSwiftLibrary0A15ManagerProtocolP", "NSError"]
+- !private ["21BillboardSwiftLibrary0A15ManagerProtocolP", "OperationQueue"]
+- ["21BillboardSwiftLibrary0A15ManagerProtocolP", "String"]
+- !private ["21BillboardSwiftLibrary0A15ManagerProtocolP", "URLSessionConfiguration"]
+- ["21BillboardSwiftLibrary0A15ManagerProtocolP", ""]
+- !private ["21BillboardSwiftLibrary0A15ManagerProtocolP", "apiClient"]
+- !private ["21BillboardSwiftLibrary0A15ManagerProtocolP", "gateway"]
+- ["21BillboardSwiftLibrary0A15ManagerProtocolP", "getChart"]
+- ["21BillboardSwiftLibrary0A15ManagerProtocolP", "validateDate"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "createDateError"]
+- !private ["s7CVarArgP", "date"]
+- !private ["s7CVarArgP", "dateFormat"]
+- !private ["s7CVarArgP", "default"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "main"]
+- !private ["10Foundation8CalendarV", "Component"]
+- !private ["10Foundation8CalendarV", "component"]
+- !private ["10Foundation8CalendarV", "current"]
+- !private ["10Foundation8CalendarV", "date"]
+- !private ["10Foundation8CalendarV", "dateComponents"]
+- !private ["21BillboardSwiftLibrary12ChartGatewayC", "getChart"]
+- !private ["21BillboardSwiftLibrary12ChartGatewayC", "init"]
+- !private ["21BillboardSwiftLibrary14ChartParameterV", "init"]
+- !private ["21BillboardSwiftLibrary9ChartTypeO", "deinit"]
+- !private ["21BillboardSwiftLibrary9ChartTypeO", "rawValue"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["10Foundation8CalendarV9ComponentO", "day"]
+- !private ["10Foundation8CalendarV9ComponentO", "hour"]
+- !private ["10Foundation8CalendarV9ComponentO", "minute"]
+- !private ["10Foundation8CalendarV9ComponentO", "month"]
+- !private ["10Foundation8CalendarV9ComponentO", "second"]
+- !private ["10Foundation8CalendarV9ComponentO", "year"]
+- !private ["s28CustomDebugStringConvertibleP", "Component"]
+- !private ["s28CustomDebugStringConvertibleP", "component"]
+- !private ["s28CustomDebugStringConvertibleP", "createDateError"]
+- !private ["s28CustomDebugStringConvertibleP", "current"]
+- !private ["s28CustomDebugStringConvertibleP", "date"]
+- !private ["s28CustomDebugStringConvertibleP", "dateComponents"]
+- !private ["s28CustomDebugStringConvertibleP", "dateFormat"]
+- !private ["s28CustomDebugStringConvertibleP", "day"]
+- !private ["s28CustomDebugStringConvertibleP", "default"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "month"]
+- !private ["s28CustomDebugStringConvertibleP", "year"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "Component"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "component"]
+- !private ["s17CustomReflectableP", "current"]
+- !private ["s17CustomReflectableP", "date"]
+- !private ["s17CustomReflectableP", "dateComponents"]
+- !private ["s17CustomReflectableP", "day"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "month"]
+- !private ["s17CustomReflectableP", "year"]
+- !private ["s23CustomStringConvertibleP", "Component"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "component"]
+- !private ["s23CustomStringConvertibleP", "createDateError"]
+- !private ["s23CustomStringConvertibleP", "current"]
+- !private ["s23CustomStringConvertibleP", "date"]
+- !private ["s23CustomStringConvertibleP", "dateComponents"]
+- !private ["s23CustomStringConvertibleP", "dateFormat"]
+- !private ["s23CustomStringConvertibleP", "day"]
+- !private ["s23CustomStringConvertibleP", "default"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "month"]
+- !private ["s23CustomStringConvertibleP", "year"]
+- !private ["10Foundation4DateV", "init"]
+- !private ["10Foundation14DateComponentsV", "day"]
+- !private ["10Foundation14DateComponentsV", "month"]
+- !private ["10Foundation14DateComponentsV", "year"]
+- !private ["So15NSDateFormatterC", "date"]
+- !private ["So15NSDateFormatterC", "dateFormat"]
+- !private ["So15NSDateFormatterC", "init"]
+- !private ["Se", "Component"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "component"]
+- !private ["Se", "current"]
+- !private ["Se", "date"]
+- !private ["Se", "dateComponents"]
+- !private ["Se", "day"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "month"]
+- !private ["Se", "year"]
+- !private ["SE", "Component"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "component"]
+- !private ["SE", "current"]
+- !private ["SE", "date"]
+- !private ["SE", "dateComponents"]
+- !private ["SE", "day"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "month"]
+- !private ["SE", "year"]
+- !private ["SQ", "Component"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "component"]
+- !private ["SQ", "createDateError"]
+- !private ["SQ", "current"]
+- !private ["SQ", "date"]
+- !private ["SQ", "dateComponents"]
+- !private ["SQ", "dateFormat"]
+- !private ["SQ", "day"]
+- !private ["SQ", "default"]
+- !private ["SQ", "hour"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "main"]
+- !private ["SQ", "minute"]
+- !private ["SQ", "month"]
+- !private ["SQ", "rawValue"]
+- !private ["SQ", "second"]
+- !private ["SQ", "year"]
+- !private ["s5ErrorP", "createDateError"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["So11NSFormatterC", "date"]
+- !private ["So11NSFormatterC", "dateFormat"]
+- !private ["So11NSFormatterC", "init"]
+- !private ["SH", "Component"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "component"]
+- !private ["SH", "createDateError"]
+- !private ["SH", "current"]
+- !private ["SH", "date"]
+- !private ["SH", "dateComponents"]
+- !private ["SH", "dateFormat"]
+- !private ["SH", "day"]
+- !private ["SH", "default"]
+- !private ["SH", "hour"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "main"]
+- !private ["SH", "minute"]
+- !private ["SH", "month"]
+- !private ["SH", "rawValue"]
+- !private ["SH", "second"]
+- !private ["SH", "year"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "createDateError"]
+- !private ["So8NSCodingP", "date"]
+- !private ["So8NSCodingP", "dateFormat"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So9NSCopyingP", "createDateError"]
+- !private ["So9NSCopyingP", "date"]
+- !private ["So9NSCopyingP", "dateFormat"]
+- !private ["So9NSCopyingP", "default"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So7NSErrorC", "createDateError"]
+- !private ["So8NSObjectC", "createDateError"]
+- !private ["So8NSObjectC", "date"]
+- !private ["So8NSObjectC", "dateFormat"]
+- !private ["So8NSObjectC", "default"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectP", "createDateError"]
+- !private ["So8NSObjectP", "date"]
+- !private ["So8NSObjectP", "dateFormat"]
+- !private ["So8NSObjectP", "default"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "main"]
+- !private ["So14NSSecureCodingP", "createDateError"]
+- !private ["So16NSOperationQueueC", "main"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["SY", "rawValue"]
+- !private ["10Foundation20ReferenceConvertibleP", "Component"]
+- !private ["10Foundation20ReferenceConvertibleP", "component"]
+- !private ["10Foundation20ReferenceConvertibleP", "current"]
+- !private ["10Foundation20ReferenceConvertibleP", "date"]
+- !private ["10Foundation20ReferenceConvertibleP", "dateComponents"]
+- !private ["10Foundation20ReferenceConvertibleP", "day"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "month"]
+- !private ["10Foundation20ReferenceConvertibleP", "year"]
+- !private ["21BillboardSwiftLibrary6ResultO", "failure"]
+- !private ["21BillboardSwiftLibrary6ResultO", "success"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So25NSURLSessionConfigurationC", "default"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "createDateError"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "date"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dateFormat"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation14_MutableBoxingP", "Component"]
+- !private ["10Foundation14_MutableBoxingP", "component"]
+- !private ["10Foundation14_MutableBoxingP", "current"]
+- !private ["10Foundation14_MutableBoxingP", "date"]
+- !private ["10Foundation14_MutableBoxingP", "dateComponents"]
+- !private ["10Foundation14_MutableBoxingP", "day"]
+- !private ["10Foundation14_MutableBoxingP", "month"]
+- !private ["10Foundation14_MutableBoxingP", "year"]
+- !private ["s21_ObjectiveCBridgeableP", "Component"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "component"]
+- !private ["s21_ObjectiveCBridgeableP", "current"]
+- !private ["s21_ObjectiveCBridgeableP", "date"]
+- !private ["s21_ObjectiveCBridgeableP", "dateComponents"]
+- !private ["s21_ObjectiveCBridgeableP", "day"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "month"]
+- !private ["s21_ObjectiveCBridgeableP", "year"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "21BillboardSwiftLibrary9ApiClientP"
+- !private "21BillboardSwiftLibrary23ApiClientImplementationC"
+- !private "SK"
+- "21BillboardSwiftLibrary0A7ManagerC"
+- "21BillboardSwiftLibrary0A15ManagerProtocolP"
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "10Foundation8CalendarV"
+- !private "21BillboardSwiftLibrary12ChartGatewayC"
+- !private "21BillboardSwiftLibrary14ChartParameterV"
+- !private "21BillboardSwiftLibrary9ChartTypeO"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation8CalendarV9ComponentO"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation4DateV"
+- !private "10Foundation14DateComponentsV"
+- !private "So15NSDateFormatterC"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s5ErrorP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "So11NSFormatterC"
+- !private "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So7NSErrorC"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So16NSOperationQueueC"
+- !private "Sm"
+- !private "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "21BillboardSwiftLibrary6ResultO"
+- !private "ST"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So25NSURLSessionConfigurationC"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation14_MutableBoxingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftSoup.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "d491d8922ebda565e34af5523b8d8fc5"

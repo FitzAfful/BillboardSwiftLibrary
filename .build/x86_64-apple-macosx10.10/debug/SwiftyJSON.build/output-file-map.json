@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftyJSON.build/master.swiftdeps"
+  },
+  "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/checkouts/SwiftyJSON.git--1123277601503798203/Source/SwiftyJSON.swift": {
+    "dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftyJSON.build/SwiftyJSON.d",
+    "object": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftyJSON.build/SwiftyJSON.swift.o",
+    "swiftmodule": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftyJSON.build/SwiftyJSON~partial.swiftmodule",
+    "swift-dependencies": "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/x86_64-apple-macosx10.10/debug/SwiftyJSON.build/SwiftyJSON.swiftdeps"
+  }
+}

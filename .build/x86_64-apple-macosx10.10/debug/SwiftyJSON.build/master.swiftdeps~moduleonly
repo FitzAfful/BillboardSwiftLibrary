@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "de1b6bf660d5d51171a2fff2a8b2a012"
+build_time: [1542648783, 859742000]
+inputs:
+  "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/.build/checkouts/SwiftyJSON.git--1123277601503798203/Source/SwiftyJSON.swift": [1542648783, 0]

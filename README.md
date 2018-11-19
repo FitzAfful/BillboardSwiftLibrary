@@ -61,11 +61,24 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-BillboardSwiftLibrary is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+#### Cocoa Pods
+To install, simply add the following line to your Podfile:
 
 ```ruby
 pod 'BillboardSwiftLibrary'
+```
+
+#### Swift Package Manager
+
+Add `BillboardSwiftLibrary` to your `Package.swift`
+
+```swift
+import PackageDescription
+
+let package = Package(
+dependencies: [
+	package(url: "https://github.com/FitzAfful/BillboardSwiftLibrary.git", "0.1.2")
+])
 ```
 
 ### Chart entry attributes

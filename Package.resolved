@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "SwiftSoup",
+        "repositoryURL": "https://github.com/scinfu/SwiftSoup.git",
+        "state": {
+          "branch": null,
+          "revision": "489072c6b1f1ebcc650538f55c0faaa627eeb88f",
+          "version": "1.7.4"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
