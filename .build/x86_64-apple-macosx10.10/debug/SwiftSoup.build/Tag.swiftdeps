@@ -1,0 +1,399 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Tag"
+- "=="
+provides-nominal:
+- "9SwiftSoup3TagC"
+provides-member:
+- ["9SwiftSoup3TagC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "&&"
+- "=="
+- !private "==="
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "Dictionary"
+- "FloatLiteralType"
+- "Hashable"
+- "Int"
+- "IntegerLiteralType"
+- "ParseSettings"
+- "String"
+- "StringLiteralType"
+- "Tag"
+- "UnicodeScalarType"
+- !private "Validate"
+- !private "^"
+- "preconditionFailure"
+- !private "type"
+- !private "||"
+depends-member:
+- !private ["SK", "hashValue"]
+- ["SK", "init"]
+- ["SK", "init"]
+- !private ["SK", "lowercased"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Sb", "hashValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "hashValue"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "lowercased"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["Sl", "hashValue"]
+- ["Sl", "init"]
+- ["Sl", "init"]
+- !private ["Sl", "lowercased"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "hashValue"]
+- ["SL", "init"]
+- ["SL", "init"]
+- !private ["SL", "lowercased"]
+- !private ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "lowercased"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "hashValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "lowercased"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "hashValue"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "lowercased"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "lowercased"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "hashValue"]
+- ["Se", "init"]
+- ["Se", "init"]
+- !private ["Se", "lowercased"]
+- !private ["Se", "subscript"]
+- ["SD", "init"]
+- !private ["SD", "subscript"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "hashValue"]
+- ["SE", "init"]
+- ["SE", "init"]
+- !private ["SE", "lowercased"]
+- !private ["SE", "subscript"]
+- ["SQ", "Dictionary"]
+- !private ["SQ", "ParseSettings"]
+- ["SQ", "Tag"]
+- !private ["SQ", "Validate"]
+- ["SQ", ""]
+- !private ["SQ", "_canContainBlock"]
+- !private ["SQ", "_canContainInline"]
+- !private ["SQ", "_empty"]
+- !private ["SQ", "_formList"]
+- !private ["SQ", "_formSubmit"]
+- !private ["SQ", "_formatAsBlock"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "_isBlock"]
+- !private ["SQ", "_preserveWhitespace"]
+- !private ["SQ", "_selfClosing"]
+- !private ["SQ", "_tagName"]
+- !private ["SQ", "_tagNameNormal"]
+- !private ["SQ", "blockTags"]
+- !private ["SQ", "emptyTags"]
+- !private ["SQ", "formListedTags"]
+- !private ["SQ", "formSubmitTags"]
+- !private ["SQ", "formatAsInlineTags"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "init"]
+- ["SQ", "initializeMaps"]
+- !private ["SQ", "inlineTags"]
+- !private ["SQ", "isEmpty"]
+- !private ["SQ", "lowercased"]
+- ["SQ", "preconditionFailure"]
+- !private ["SQ", "preserveWhitespaceTags"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "tags"]
+- !private ["SQ", "type"]
+- !private ["SQ", "valueOf"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s27ExpressibleByBooleanLiteralP", "hashValue"]
+- ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "hashValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "lowercased"]
+- !private ["s26ExpressibleByStringLiteralP", "hashValue"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "lowercased"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "hashValue"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "lowercased"]
+- ["SH", "Dictionary"]
+- !private ["SH", "ParseSettings"]
+- ["SH", "Tag"]
+- !private ["SH", "Validate"]
+- ["SH", ""]
+- !private ["SH", "_canContainBlock"]
+- !private ["SH", "_canContainInline"]
+- !private ["SH", "_empty"]
+- !private ["SH", "_formList"]
+- !private ["SH", "_formSubmit"]
+- !private ["SH", "_formatAsBlock"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "_isBlock"]
+- !private ["SH", "_preserveWhitespace"]
+- !private ["SH", "_selfClosing"]
+- !private ["SH", "_tagName"]
+- !private ["SH", "_tagNameNormal"]
+- !private ["SH", "blockTags"]
+- !private ["SH", "emptyTags"]
+- !private ["SH", "formListedTags"]
+- !private ["SH", "formSubmitTags"]
+- !private ["SH", "formatAsInlineTags"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "init"]
+- ["SH", "initializeMaps"]
+- !private ["SH", "inlineTags"]
+- !private ["SH", "isEmpty"]
+- !private ["SH", "lowercased"]
+- ["SH", "preconditionFailure"]
+- !private ["SH", "preserveWhitespaceTags"]
+- !private ["SH", "subscript"]
+- !private ["SH", "tags"]
+- !private ["SH", "type"]
+- !private ["SH", "valueOf"]
+- !private ["s6HasherV", "combine"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "hashValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "lowercased"]
+- !private ["s10MirrorPathP", "hashValue"]
+- ["s10MirrorPathP", "init"]
+- ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "lowercased"]
+- !private ["So8NSCodingP", "hashValue"]
+- !private ["So8NSCodingP", "lowercased"]
+- !private ["So9NSCopyingP", "hashValue"]
+- !private ["So9NSCopyingP", "lowercased"]
+- !private ["So21NSItemProviderReadingP", "hashValue"]
+- !private ["So21NSItemProviderReadingP", "lowercased"]
+- !private ["So21NSItemProviderWritingP", "hashValue"]
+- !private ["So21NSItemProviderWritingP", "lowercased"]
+- !private ["So16NSMutableCopyingP", "hashValue"]
+- !private ["So16NSMutableCopyingP", "lowercased"]
+- !private ["So8NSObjectC", "hashValue"]
+- !private ["So8NSObjectC", "lowercased"]
+- !private ["So8NSObjectP", "hashValue"]
+- !private ["So8NSObjectP", "lowercased"]
+- !private ["So14NSSecureCodingP", "hashValue"]
+- !private ["So14NSSecureCodingP", "lowercased"]
+- !private ["So8NSStringC", "hashValue"]
+- !private ["So8NSStringC", "lowercased"]
+- !private ["9SwiftSoup13ParseSettingsC", "normalizeTag"]
+- !private ["9SwiftSoup13ParseSettingsC", "preserveCase"]
+- !private ["Sm", "hashValue"]
+- ["Sm", "init"]
+- ["Sm", "init"]
+- !private ["Sm", "lowercased"]
+- !private ["ST", "hashValue"]
+- ["ST", "init"]
+- ["ST", "init"]
+- !private ["ST", "lowercased"]
+- !private ["ST", "subscript"]
+- ["s12StaticStringV", "init"]
+- ["s12StaticStringV", "init"]
+- !private ["SS", "hashValue"]
+- ["SS", "init"]
+- ["SS", "init"]
+- !private ["SS", "lowercased"]
+- !private ["Sy", "hashValue"]
+- ["Sy", "init"]
+- ["Sy", "init"]
+- !private ["Sy", "lowercased"]
+- ["9SwiftSoup3TagC", "=="]
+- ["9SwiftSoup3TagC", "Bool"]
+- ["9SwiftSoup3TagC", "Dictionary"]
+- ["9SwiftSoup3TagC", "Int"]
+- ["9SwiftSoup3TagC", "ParseSettings"]
+- ["9SwiftSoup3TagC", "String"]
+- ["9SwiftSoup3TagC", "Tag"]
+- !private ["9SwiftSoup3TagC", "Validate"]
+- !private ["9SwiftSoup3TagC", "_canContainBlock"]
+- !private ["9SwiftSoup3TagC", "_canContainInline"]
+- !private ["9SwiftSoup3TagC", "_empty"]
+- !private ["9SwiftSoup3TagC", "_formList"]
+- !private ["9SwiftSoup3TagC", "_formSubmit"]
+- !private ["9SwiftSoup3TagC", "_formatAsBlock"]
+- !private ["9SwiftSoup3TagC", "_isBlock"]
+- !private ["9SwiftSoup3TagC", "_preserveWhitespace"]
+- !private ["9SwiftSoup3TagC", "_selfClosing"]
+- !private ["9SwiftSoup3TagC", "_tagName"]
+- !private ["9SwiftSoup3TagC", "_tagNameNormal"]
+- !private ["9SwiftSoup3TagC", "blockTags"]
+- ["9SwiftSoup3TagC", "canContainBlock"]
+- ["9SwiftSoup3TagC", "deinit"]
+- !private ["9SwiftSoup3TagC", "emptyTags"]
+- ["9SwiftSoup3TagC", "equals"]
+- !private ["9SwiftSoup3TagC", "formListedTags"]
+- !private ["9SwiftSoup3TagC", "formSubmitTags"]
+- ["9SwiftSoup3TagC", "formatAsBlock"]
+- !private ["9SwiftSoup3TagC", "formatAsInlineTags"]
+- ["9SwiftSoup3TagC", "getName"]
+- ["9SwiftSoup3TagC", "getNameNormal"]
+- ["9SwiftSoup3TagC", "hash"]
+- ["9SwiftSoup3TagC", "hashValue"]
+- ["9SwiftSoup3TagC", "init"]
+- ["9SwiftSoup3TagC", "initializeMaps"]
+- !private ["9SwiftSoup3TagC", "inlineTags"]
+- ["9SwiftSoup3TagC", "isBlock"]
+- ["9SwiftSoup3TagC", "isData"]
+- ["9SwiftSoup3TagC", "isEmpty"]
+- ["9SwiftSoup3TagC", "isFormListed"]
+- ["9SwiftSoup3TagC", "isFormSubmittable"]
+- ["9SwiftSoup3TagC", "isInline"]
+- ["9SwiftSoup3TagC", "isKnownTag"]
+- ["9SwiftSoup3TagC", "isSelfClosing"]
+- ["9SwiftSoup3TagC", "preconditionFailure"]
+- ["9SwiftSoup3TagC", "preserveWhitespace"]
+- !private ["9SwiftSoup3TagC", "preserveWhitespaceTags"]
+- ["9SwiftSoup3TagC", "setSelfClosing"]
+- ["9SwiftSoup3TagC", "tags"]
+- ["9SwiftSoup3TagC", "toString"]
+- !private ["9SwiftSoup3TagC", "type"]
+- ["9SwiftSoup3TagC", "valueOf"]
+- !private ["s16TextOutputStreamP", "hashValue"]
+- ["s16TextOutputStreamP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "lowercased"]
+- !private ["s20TextOutputStreamableP", "hashValue"]
+- ["s20TextOutputStreamableP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "lowercased"]
+- !private ["9SwiftSoup8ValidateV", "notEmpty"]
+- !private ["9SwiftSoup8ValidateV", "notNull"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "hashValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "hashValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "lowercased"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "hashValue"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "lowercased"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "hashValue"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "lowercased"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "hashValue"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "lowercased"]
+- !private ["s33_ExpressibleByStringInterpolationP", "hashValue"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "lowercased"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "hashValue"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "lowercased"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "hashValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lowercased"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "hashValue"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "lowercased"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s16_SwiftStringViewP", "hashValue"]
+- ["s16_SwiftStringViewP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "lowercased"]
+depends-nominal:
+- "SK"
+- !private "Sb"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "SD"
+- "SE"
+- "SQ"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s30ExpressibleByDictionaryLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- !private "s6HasherV"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "9SwiftSoup13ParseSettingsC"
+- "Sm"
+- "ST"
+- "s12StaticStringV"
+- "SS"
+- "Sy"
+- "9SwiftSoup3TagC"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "9SwiftSoup8ValidateV"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "261dd810faf5ec0f74f41968653ec4e6"

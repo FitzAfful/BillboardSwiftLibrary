@@ -1,0 +1,11 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "efe36bbea051c97f1e818cacbf5b5123"
+build_time: [1542842777, 527292000]
+inputs:
+  "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/Sources/BillboardManager.swift": [1542480102, 0]
+  "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/Sources/ChartEntry.swift": [1542469947, 0]
+  "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/Sources/ChartEnums.swift": [1542481081, 0]
+  "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/Sources/ChartGateway.swift": [1542482658, 0]
+  "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/Sources/ChartParser.swift": [1542473484, 0]
+  "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/Sources/ChartRequests.swift": [1542464341, 0]
+  "/Users/PaaQuesiAfful/iOS Projects/BillboardSwiftLibrary/Sources/Result.swift": [1542404715, 0]

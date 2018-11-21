@@ -1,0 +1,230 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Parser"
+provides-nominal:
+- "9SwiftSoup6ParserC"
+provides-member:
+- ["9SwiftSoup6ParserC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "..<"
+- !private ">"
+- "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "CharacterReader"
+- "Document"
+- "Element"
+- "FloatLiteralType"
+- !private "HtmlTreeBuilder"
+- "Int"
+- "IntegerLiteralType"
+- "Node"
+- "ParseErrorList"
+- "ParseSettings"
+- "Parser"
+- "String"
+- "TernaryPrecedence"
+- !private "Tokeniser"
+- "TreeBuilder"
+- !private "XmlTreeBuilder"
+depends-member:
+- !private ["Sa", "count"]
+- !private ["Sa", "subscript"]
+- !private ["s13ArrayProtocolP", "count"]
+- !private ["s13ArrayProtocolP", "remove"]
+- !private ["s13ArrayProtocolP", "subscript"]
+- !private ["s10ArraySliceV", "remove"]
+- !private ["SK", "count"]
+- !private ["SK", "remove"]
+- !private ["SK", "subscript"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["9SwiftSoup15CharacterReaderC", "init"]
+- !private ["Sl", "count"]
+- !private ["Sl", "remove"]
+- !private ["Sl", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "appendChild"]
+- !private ["s28CustomDebugStringConvertibleP", "body"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "createShell"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "remove"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "remove"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "appendChild"]
+- !private ["s23CustomStringConvertibleP", "body"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "createShell"]
+- !private ["s23CustomStringConvertibleP", "remove"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "count"]
+- !private ["Se", "subscript"]
+- !private ["9SwiftSoup8DocumentC", "body"]
+- !private ["9SwiftSoup8DocumentC", "createShell"]
+- !private ["9SwiftSoup7ElementC", "appendChild"]
+- !private ["9SwiftSoup7ElementC", "body"]
+- !private ["9SwiftSoup7ElementC", "createShell"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "count"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "appendChild"]
+- !private ["SQ", "body"]
+- !private ["SQ", "count"]
+- !private ["SQ", "createShell"]
+- !private ["SQ", "remove"]
+- !private ["SQ", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "remove"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "appendChild"]
+- !private ["SH", "body"]
+- !private ["SH", "count"]
+- !private ["SH", "createShell"]
+- !private ["SH", "remove"]
+- !private ["SH", "subscript"]
+- !private ["9SwiftSoup15HtmlTreeBuilderC", "defaultSettings"]
+- !private ["9SwiftSoup15HtmlTreeBuilderC", "init"]
+- !private ["9SwiftSoup15HtmlTreeBuilderC", "parseFragment"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["SM", "count"]
+- !private ["SM", "remove"]
+- !private ["SM", "subscript"]
+- !private ["9SwiftSoup4NodeC", "appendChild"]
+- !private ["9SwiftSoup4NodeC", "body"]
+- !private ["9SwiftSoup4NodeC", "createShell"]
+- !private ["9SwiftSoup4NodeC", "remove"]
+- ["9SwiftSoup14ParseErrorListC", "init"]
+- !private ["9SwiftSoup14ParseErrorListC", "noTracking"]
+- !private ["9SwiftSoup14ParseErrorListC", "tracking"]
+- ["9SwiftSoup6ParserC", "Array"]
+- ["9SwiftSoup6ParserC", "Bool"]
+- !private ["9SwiftSoup6ParserC", "CharacterReader"]
+- ["9SwiftSoup6ParserC", "DEFAULT_MAX_ERRORS"]
+- ["9SwiftSoup6ParserC", "Document"]
+- ["9SwiftSoup6ParserC", "Element"]
+- !private ["9SwiftSoup6ParserC", "HtmlTreeBuilder"]
+- ["9SwiftSoup6ParserC", "Int"]
+- ["9SwiftSoup6ParserC", "Node"]
+- ["9SwiftSoup6ParserC", "ParseErrorList"]
+- ["9SwiftSoup6ParserC", "ParseSettings"]
+- ["9SwiftSoup6ParserC", "Parser"]
+- ["9SwiftSoup6ParserC", "String"]
+- !private ["9SwiftSoup6ParserC", "Tokeniser"]
+- ["9SwiftSoup6ParserC", "TreeBuilder"]
+- !private ["9SwiftSoup6ParserC", "XmlTreeBuilder"]
+- !private ["9SwiftSoup6ParserC", "_errors"]
+- !private ["9SwiftSoup6ParserC", "_maxErrors"]
+- !private ["9SwiftSoup6ParserC", "_settings"]
+- !private ["9SwiftSoup6ParserC", "_treeBuilder"]
+- ["9SwiftSoup6ParserC", "getErrors"]
+- ["9SwiftSoup6ParserC", "getTreeBuilder"]
+- ["9SwiftSoup6ParserC", "htmlParser"]
+- ["9SwiftSoup6ParserC", "init"]
+- ["9SwiftSoup6ParserC", "isTrackErrors"]
+- ["9SwiftSoup6ParserC", "parse"]
+- ["9SwiftSoup6ParserC", "parseBodyFragment"]
+- ["9SwiftSoup6ParserC", "parseBodyFragmentRelaxed"]
+- ["9SwiftSoup6ParserC", "parseFragment"]
+- ["9SwiftSoup6ParserC", "parseInput"]
+- ["9SwiftSoup6ParserC", "parseXmlFragment"]
+- ["9SwiftSoup6ParserC", "setTrackErrors"]
+- ["9SwiftSoup6ParserC", "setTreeBuilder"]
+- ["9SwiftSoup6ParserC", "settings"]
+- ["9SwiftSoup6ParserC", "unescapeEntities"]
+- ["9SwiftSoup6ParserC", "xmlParser"]
+- !private ["Sk", "count"]
+- !private ["Sk", "remove"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "count"]
+- !private ["Sm", "remove"]
+- !private ["Sm", "subscript"]
+- !private ["ST", "count"]
+- !private ["ST", "remove"]
+- !private ["ST", "subscript"]
+- !private ["9SwiftSoup9TokeniserC", "init"]
+- !private ["9SwiftSoup9TokeniserC", "unescapeEntities"]
+- !private ["9SwiftSoup11TreeBuilderC", "defaultSettings"]
+- !private ["9SwiftSoup11TreeBuilderC", "init"]
+- !private ["9SwiftSoup11TreeBuilderC", "parse"]
+- !private ["9SwiftSoup11TreeBuilderC", "parseFragment"]
+- !private ["9SwiftSoup14XmlTreeBuilderC", "defaultSettings"]
+- !private ["9SwiftSoup14XmlTreeBuilderC", "init"]
+- !private ["9SwiftSoup14XmlTreeBuilderC", "parseFragment"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "remove"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- !private "s10ArraySliceV"
+- !private "SK"
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "9SwiftSoup15CharacterReaderC"
+- !private "Sl"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "9SwiftSoup8DocumentC"
+- !private "9SwiftSoup7ElementC"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "SH"
+- !private "9SwiftSoup15HtmlTreeBuilderC"
+- !private "s25LosslessStringConvertibleP"
+- !private "SM"
+- !private "9SwiftSoup4NodeC"
+- "9SwiftSoup14ParseErrorListC"
+- "9SwiftSoup6ParserC"
+- !private "Sk"
+- !private "Sm"
+- !private "ST"
+- !private "9SwiftSoup9TokeniserC"
+- !private "9SwiftSoup11TreeBuilderC"
+- !private "9SwiftSoup14XmlTreeBuilderC"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "57a570ca2d5473c0e246bde2cf8d8b10"
